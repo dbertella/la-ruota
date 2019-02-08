@@ -9,16 +9,16 @@ description: >-
   tipici per mettervi l’acquolina in bocca…
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/menu_06.png
       text: >-
         Insalata di polpo con fagiolini all’extravergine - Sarde in Saor -
         Ostriche fines claires - Calamari con porcini su panissa al pistacchio -
         Carpaccio di tonno con salsa agli agrumi
-    - image: /img/coffee-gear.png
+    - image: /img/conchiglia.png
       text: >-
         Spaghetti alle vongole veraci - Linguine all’astice - Risotto ai frutti
         di mare - Trofie al pesto - Pasta alla bottarga di muggine con trombette
-    - image: /img/tutorials.png
+    - image: /img/menu_03.png
       text: >-
         Pescato del giorno con patate e olive taggiasche - Filetto di tonno alla
         griglia con ratatuille - Gamberoni di Oneglia alla griglia - Fritto
