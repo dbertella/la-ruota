@@ -63,24 +63,25 @@ pricing:
   plans:
     - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
+        - Antipasto del giorno o Primo piatto del giorno
+        - Pesce del golfo e contorno
+        - Dessert della casa
       plan: Menu Tirreno
       price: '37'
     - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
+        - Antipasti misti di mare
+        - Pesce del golfo e contorno
+        - Dessert della casa
+      plan: Menu Ponente
+      price: '41'
     - description: Want a few tiny batches from different varieties? Try our custom plan
       items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '??'
+        - Antipasti misti di mare
+        - Primo piatto del giorno
+        - Pesce del golfo e contorno
+        - Dessert della casa
+      plan: Menu Mediterraneo
+      price: '46'
 ---
 
