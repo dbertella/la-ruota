@@ -1,7 +1,9 @@
 ---
 templateKey: home-page
-title: Dōna Flor
-path: /
+title: RISTORANTE LA RUOTA
 ---
+## SPECIALITÀ PESCE
 
-Dōna Flor è nomadismo di piedi, musica e colore. È atlantica: navi la percorrono in lungo e in largo. È una diaspora di fiori viaggi, racconti.
+Situato nel Borgo piu’ caratteristico di Imperia, **Borgo Foce**, dal 1979 il **Ristorante La Ruota** propone una cucina di mare improntata sul **pescato locale**, accompagnato da verdure e oli delle vallate circostanti.
+
+Nel **dehors fronte mare**, anche in pieno inverno grazie al clima mite tipico del **Ponente Ligure** potete gustare le nostre specialità in un’oasi di tranquillità a due passi dal centro storico della città.
