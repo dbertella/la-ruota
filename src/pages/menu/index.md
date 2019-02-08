@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Il Nostro Menu alla Carta
-image: /img/jumbotron.jpg
+image: /img/la-foce-notte.png
 heading: Cosa Offriamo
 description: >-
   Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il nostro menu
@@ -70,7 +70,7 @@ testimonials:
       Ottima cucina, squisiti gli antipasti, superbo il risotto ai frutti di
       mare. Grande cortesia del personale. Cosa dire della posizione? Una
       Terrazza sul mare
-full_image: /img/products-full-width.jpg
+full_image: /img/la-foce.png
 pricing:
   heading: I Suggerimenti dello Chef
   description: Oggi lo chef vi consiglia
