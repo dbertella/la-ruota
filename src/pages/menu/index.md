@@ -10,40 +10,19 @@ description: >-
 intro:
   blurbs:
     - image: /img/coffee.png
-      text: |-
-        Insalata di polpo con fagiolini all’extravergine
-
-        Sarde in Saor
-
-        Ostriche fines claires
-
-        Calamari con porcini su panissa al pistacchio
-
+      text: >-
+        Insalata di polpo con fagiolini all’extravergine - Sarde in Saor -
+        Ostriche fines claires - Calamari con porcini su panissa al pistacchio -
         Carpaccio di tonno con salsa agli agrumi
     - image: /img/coffee-gear.png
-      text: |-
-        Spaghetti alle vongole veraci
-
-        Linguine all’astice
-
-        Risotto ai frutti di mare
-
-        Trofie al pesto
-
-        Pasta alla bottarga di muggine con trombette
+      text: >-
+        Spaghetti alle vongole veraci - Linguine all’astice - Risotto ai frutti
+        di mare - Trofie al pesto - Pasta alla bottarga di muggine con trombette
     - image: /img/tutorials.png
-      text: |-
-        Pescato del giorno con patate e olive taggiasche
-
-        Filetto di tonno alla griglia con ratatuille
-
-        Gamberoni di Oneglia alla griglia
-
-        Fritto misto*
-
-        E molto altro….
-
-        in base a quello che porta il nostro Mare….
+      text: >-
+        Pescato del giorno con patate e olive taggiasche - Filetto di tonno alla
+        griglia con ratatuille - Gamberoni di Oneglia alla griglia - Fritto
+        misto*
   heading: Cosa Offriamo
   description: >-
     - improntato su una cucina mediterranea
@@ -60,8 +39,9 @@ intro:
     l’acquolina in bocca…
 main:
   heading: >-
-    … oppure venite da noi, lasciatevi consigliare dallo Chef e scoprite il
-    pesce fresco del giorno!
+    E molto altro… in base a quello che porta il nostro Mare, oppure venite da
+    noi, lasciatevi consigliare dallo Chef e scoprite il pesce fresco del
+    giorno!
   description: >
     I dolci: Abbiamo pure una buona scelta di dolci tra i quali il torroncino
     ghiacciato con salsa alla menta, il creme caramel, la torta al limone o al
