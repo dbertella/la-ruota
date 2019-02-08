@@ -10,15 +10,49 @@ description: >-
 intro:
   blurbs:
     - image: /img/coffee.png
-      text: |
-        improntato su una cucina mediterranea
+      text: |-
+        Insalata di polpo con fagiolini all’extravergine
+
+        Sarde in Saor
+
+        Ostriche fines claires
+
+        Calamari con porcini su panissa al pistacchio
+
+        Carpaccio di tonno con salsa agli agrumi
     - image: /img/coffee-gear.png
-      text: sempre basata sul pesce fresco e prodotti del territorio
+      text: |-
+        Spaghetti alle vongole veraci
+
+        Linguine all’astice
+
+        Risotto ai frutti di mare
+
+        Trofie al pesto
+
+        Pasta alla bottarga di muggine con trombette
     - image: /img/tutorials.png
-      text: |
-        sempre basata sul pesce fresco e prodotti del territorio
+      text: |-
+        Pescato del giorno con patate e olive taggiasche
+
+        Filetto di tonno alla griglia con ratatuille
+
+        Gamberoni di Oneglia alla griglia
+
+        Fritto misto*
+
+        E molto altro….
+
+        in base a quello che porta il nostro Mare….
   heading: Cosa Offriamo
   description: >-
+    - improntato su una cucina mediterranea
+
+    - sempre basata sul pesce fresco e prodotti del territorio
+
+    - sempre preparati al momento
+
+
     Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il nostro
     menu varia SEMPRE, eh sì!
 
