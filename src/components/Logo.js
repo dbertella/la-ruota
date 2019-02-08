@@ -10,8 +10,8 @@ const LogoWrapper = styled.div`
   flex: 0 0 auto;
   overflow: hidden;
   position: relative;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 `
 
 const Img = styled.img`
