@@ -24,8 +24,38 @@ const Absolute = styled.div`
     margin: 0;
   }
 `
+const Title = styled.h1`
+  font-size: 2.7rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+`
+const SubTitle = styled.h2`
+  margin-top: -1.25rem;
+  margin-bottom: 1.5rem;
+  color: #888;
+  font-weight: 800;
+  font-size: 1.3rem;
+`
+const WrapPageContent = styled.div`
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+`
+const Card = styled.div`
+  float: left;
+  width: 33.33333%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+`
 
-export const HomePageTemplate = ({ title, subtitle, content, contentComponent }) => {
+export const HomePageTemplate = ({
+  title,
+  subtitle,
+  content,
+  contentComponent,
+  instaFeed
+}) => {
   const PageContent = contentComponent || Content
   var settings = {
     dots: true,
@@ -63,15 +93,25 @@ export const HomePageTemplate = ({ title, subtitle, content, contentComponent })
           <div className="card-content">
             <div className="media">
               <div className="media-content">
-                <h1 className="title is-3">{title}</h1>
-                <h2 className="subtitle is-4">{subtitle}</h2>
+                <Title>{title}</Title>
+                <SubTitle>{subtitle}</SubTitle>
               </div>
             </div>
-
-            <PageContent className="content" content={content} />
+            <WrapPageContent>
+              <PageContent content={content} />
+            </WrapPageContent>
           </div>
         </Absolute>
       </Relative>
+      <section className="section">
+        <div className="container">
+          {instaFeed.edges.map(({ node }) => (
+            <Card key={node.id}>
+              <img src={node.thumbnails[2].src} alt={node.caption} />
+            </Card>
+          ))}
+        </div>
+      </section>
     </>
   )
 }
@@ -80,12 +120,13 @@ HomePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
   content: PropTypes.string,
-  contentComponent: PropTypes.func
+  contentComponent: PropTypes.func,
+  instaFeed: PropTypes.object
 }
 
 const HomePage = ({ data }) => {
-  const { markdownRemark: post } = data
-  console.log(post)
+  const { markdownRemark: post, allInstaNode } = data
+  console.log(allInstaNode)
   return (
     <Layout>
       <HomePageTemplate
@@ -93,6 +134,7 @@ const HomePage = ({ data }) => {
         title={post.frontmatter.title}
         subtitle={post.frontmatter.subtitle}
         content={post.html}
+        instaFeed={allInstaNode}
       />
     </Layout>
   )
@@ -111,6 +153,35 @@ export const homePageQuery = graphql`
       frontmatter {
         title
         subtitle
+      }
+    }
+    allInstaNode {
+      edges {
+        node {
+          id
+          likes
+          comments
+          original
+          timestamp
+          caption
+          localFile {
+            childImageSharp {
+              fixed(width: 150, height: 150) {
+                ...GatsbyImageSharpFixed
+              }
+            }
+          }
+          # Only available with the public api scraper
+          thumbnails {
+            src
+            config_width
+            config_height
+          }
+          dimensions {
+            height
+            width
+          }
+        }
       }
     }
   }
