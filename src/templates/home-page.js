@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import styled from 'styled-components'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
@@ -9,58 +10,85 @@ import pic3 from '../img/la-ruota.png'
 import Slider from 'react-slick'
 import Helmet from 'react-helmet'
 
-export const HomePageTemplate = ({ title, content, contentComponent }) => {
+const Relative = styled.div`
+  position: relative;
+`
+const Absolute = styled.div`
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+`
+
+export const HomePageTemplate = ({ title, subtitle, content, contentComponent }) => {
   const PageContent = contentComponent || Content
   var settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    fade: true,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 10000,
+    cssEase: 'linear'
   }
   return (
     <>
       <Helmet>
-        <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          charset="UTF-8"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+        />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+        />
       </Helmet>
-      <Slider {...settings}>
-        <img src={pic} alt="la foce" />
-        <img src={pic2} alt="la foce notte" />
-        <img src={pic3} alt="la ruota" />
-      </Slider>
-      <section className="section section--gradient">
-        <div className="container">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="section">
-                <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                  {title}
-                </h2>
-                <PageContent className="content" content={content} />
+      <Relative>
+        <Slider {...settings}>
+          <img src={pic} alt="la foce" />
+          <img src={pic2} alt="la foce notte" />
+          <img src={pic3} alt="la ruota" />
+        </Slider>
+        <Absolute className="card">
+          <div className="card-content">
+            <div className="media">
+              <div className="media-content">
+                <h1 className="title is-4">{title}</h1>
+                <h2 className="subtitle is-6">{subtitle}</h2>
               </div>
             </div>
+
+            <div className="content">
+              <PageContent className="content" content={content} />
+            </div>
           </div>
-        </div>
-      </section>
+        </Absolute>
+      </Relative>
     </>
   )
 }
 
 HomePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func
 }
 
 const HomePage = ({ data }) => {
   const { markdownRemark: post } = data
-
+  console.log(post)
   return (
     <Layout>
       <HomePageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
+        subtitle={post.frontmatter.subtitle}
         content={post.html}
       />
     </Layout>
@@ -79,6 +107,7 @@ export const homePageQuery = graphql`
       html
       frontmatter {
         title
+        subtitle
       }
     }
   }
