@@ -14,10 +14,15 @@ const Relative = styled.div`
   position: relative;
 `
 const Absolute = styled.div`
-  position: absolute !important;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 2rem 1rem 1rem;
+  @media (min-width: 1088px) {
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    margin: 0;
+  }
 `
 
 export const HomePageTemplate = ({ title, subtitle, content, contentComponent }) => {
@@ -58,14 +63,12 @@ export const HomePageTemplate = ({ title, subtitle, content, contentComponent })
           <div className="card-content">
             <div className="media">
               <div className="media-content">
-                <h1 className="title is-4">{title}</h1>
-                <h2 className="subtitle is-6">{subtitle}</h2>
+                <h1 className="title is-3">{title}</h1>
+                <h2 className="subtitle is-4">{subtitle}</h2>
               </div>
             </div>
 
-            <div className="content">
-              <PageContent className="content" content={content} />
-            </div>
+            <PageContent className="content" content={content} />
           </div>
         </Absolute>
       </Relative>
