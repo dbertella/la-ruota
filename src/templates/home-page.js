@@ -42,8 +42,10 @@ const WrapPageContent = styled.div`
   line-height: 1.6;
 `
 const Card = styled.div`
-  float: left;
-  width: 33.33333%;
+  @media (min-width: 1088px) {
+    float: left;
+    width: 33.33333%;
+  }
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
