@@ -6,6 +6,7 @@ const HomePagePreview = ({ entry, widgetFor }) => (
   <HomePageTemplate
     title={entry.getIn(['data', 'title'])}
     subtitle={entry.getIn(['data', 'subtitle'])}
+    carousel={entry.getIn(['data', 'carousel'])}
     content={widgetFor('body')}
   />
 )

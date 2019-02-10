@@ -1,14 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
+import { take } from 'lodash'
+import Slider from 'react-slick'
+import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
-import pic from '../img/la-foce.png'
-import pic2 from '../img/la-foce-notte.png'
-import pic3 from '../img/la-ruota.png'
-import Slider from 'react-slick'
-import Helmet from 'react-helmet'
+import Img from 'gatsby-image'
+
 
 const Relative = styled.div`
   position: relative;
@@ -41,19 +41,48 @@ const WrapPageContent = styled.div`
   color: #555;
   line-height: 1.6;
 `
-const Card = styled.div`
+
+const Grid = styled.div`
   @media (min-width: 1088px) {
-    float: left;
-    width: 33.33333%;
+    grid-template-columns: 320px 320px 320px;
   }
-  display: flex;
+  grid-template-columns: 320px;
+  grid-template-rows: 320px;
+  display: grid;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
   justify-content: center;
-  margin-bottom: 1rem;
+`
+const Overlay = styled.div`
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 270px;
+  overflow: auto;
+  padding: 1rem;
+  transform: translateY(100%);
+  background: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  transition: transform 0.5s ease-in-out, background 0.5s ease-in-out;
+`
+
+const Card = styled(Relative)`
+  position: relative;
+  height: 320px;
+  width: 320px;
+  overflow: hidden;
+  &:hover {
+    ${Overlay} {
+      transform: translateY(0%);
+    }
+  }
 `
 
 export const HomePageTemplate = ({
   title,
   subtitle,
+  carousel,
   content,
   contentComponent,
   instaFeed
@@ -87,9 +116,9 @@ export const HomePageTemplate = ({
       </Helmet>
       <Relative>
         <Slider {...settings}>
-          <img src={pic} alt="la foce" />
-          <img src={pic2} alt="la foce notte" />
-          <img src={pic3} alt="la ruota" />
+          {carousel.map(({ image }, i) => (
+            <Img key={image.childImageSharp.fluid.src} fluid={image.childImageSharp.fluid} alt="" />
+          ))}
         </Slider>
         <Absolute className="card">
           <div className="card-content">
@@ -107,11 +136,23 @@ export const HomePageTemplate = ({
       </Relative>
       <section className="section">
         <div className="container">
-          {instaFeed.edges.map(({ node }) => (
-            <Card key={node.id}>
-              <img src={node.thumbnails[2].src} alt={node.caption} />
-            </Card>
-          ))}
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <Grid>
+                {take(
+                  instaFeed.edges.map(({ node }) => (
+                    <Card key={node.id}>
+                      <img src={node.thumbnails[2].src} alt={node.caption} />
+                      <Overlay>
+                        <div>{node.caption}</div>
+                      </Overlay>
+                    </Card>
+                  )),
+                  9
+                )}
+              </Grid>
+            </div>
+          </div>
         </div>
       </section>
     </>
@@ -121,6 +162,7 @@ export const HomePageTemplate = ({
 HomePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
+  carousel: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
   instaFeed: PropTypes.object
@@ -128,13 +170,14 @@ HomePageTemplate.propTypes = {
 
 const HomePage = ({ data }) => {
   const { markdownRemark: post, allInstaNode } = data
-  console.log(allInstaNode)
+  console.log(post)
   return (
     <Layout>
       <HomePageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         subtitle={post.frontmatter.subtitle}
+        carousel={post.frontmatter.carousel}
         content={post.html}
         instaFeed={allInstaNode}
       />
@@ -155,6 +198,15 @@ export const homePageQuery = graphql`
       frontmatter {
         title
         subtitle
+        carousel {
+          image {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
       }
     }
     allInstaNode {
