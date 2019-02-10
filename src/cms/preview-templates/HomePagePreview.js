@@ -5,7 +5,7 @@ import { HomePageTemplate } from '../../templates/home-page'
 const HomePagePreview = ({ entry, widgetFor }) => {
   const carouselSlides = entry.getIn(['data', 'carousel'])
   const slides = carouselSlides ? carouselSlides.toJS() : []
-  const instaData = entry.getIn(['data', 'allInstaNode'])
+  const instaData = entry.getIn(['data', 'allInstaNode', 'edges'])
   const instaFeed = instaData ? instaData.toJS(): []
   return (
     <HomePageTemplate
