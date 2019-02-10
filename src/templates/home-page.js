@@ -99,6 +99,7 @@ export const HomePageTemplate = ({
     autoplaySpeed: 10000,
     cssEase: 'linear'
   }
+  console.log(carousel)
   return (
     <>
       <Helmet>
@@ -116,7 +117,7 @@ export const HomePageTemplate = ({
       </Helmet>
       <Relative>
         <Slider {...settings}>
-          {carousel.map(({ image }, i) => (
+          {carousel && carousel.map(({ image }, i) => (
             <Img key={image.childImageSharp.fluid.src} fluid={image.childImageSharp.fluid} alt="" />
           ))}
         </Slider>
