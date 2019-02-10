@@ -9,7 +9,7 @@ const HomePagePreview = ({ entry, widgetFor }) => {
     <HomePageTemplate
       title={entry.getIn(['data', 'title'])}
       subtitle={entry.getIn(['data', 'subtitle'])}
-      carousel={{ slides }}
+      carousel={slides}
       content={widgetFor('body')}
     />
   )
