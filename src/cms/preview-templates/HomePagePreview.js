@@ -10,6 +10,7 @@ const HomePagePreview = ({ entry, widgetFor }) => {
       title={entry.getIn(['data', 'title'])}
       subtitle={entry.getIn(['data', 'subtitle'])}
       carousel={slides}
+      instaFeed={entry.getIn(['data', 'allInstaNode'])}
       content={widgetFor('body')}
     />
   )
