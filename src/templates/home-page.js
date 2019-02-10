@@ -1,14 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { take } from 'lodash'
+import { get, take } from 'lodash'
 import Slider from 'react-slick'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Img from 'gatsby-image'
-
 
 const Relative = styled.div`
   position: relative;
@@ -79,6 +78,18 @@ const Card = styled(Relative)`
   }
 `
 
+const Slide = ({ image }) => {
+  if (typeof image === 'string') {
+    return <img src={image} alt="" />
+  }
+  return (
+    <Img
+      fluid={image.childImageSharp.fluid}
+      alt=""
+    />
+  )
+}
+
 export const HomePageTemplate = ({
   title,
   subtitle,
@@ -99,7 +110,6 @@ export const HomePageTemplate = ({
     autoplaySpeed: 10000,
     cssEase: 'linear'
   }
-  console.log(carousel)
   return (
     <>
       <Helmet>
@@ -117,8 +127,11 @@ export const HomePageTemplate = ({
       </Helmet>
       <Relative>
         <Slider {...settings}>
-          {carousel && carousel.map(({ image }, i) => (
-            <Img key={image.childImageSharp.fluid.src} fluid={image.childImageSharp.fluid} alt="" />
+          {carousel.map(({ image }) => (
+            <Slide
+              key={get(image, 'childImageSharp.fluid.src', image)}
+              image={image}
+            />
           ))}
         </Slider>
         <Absolute className="card">
