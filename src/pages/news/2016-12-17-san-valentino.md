@@ -3,7 +3,7 @@ templateKey: blog-post
 title: San Valentino 2019
 date: 2019-02-05T15:04:10.000Z
 description: Menu di San Valentino
-image: /img/la-foce.png
+image: /img/san-valentino-1.png
 tags:
   - flavor
   - tasting
