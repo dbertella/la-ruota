@@ -1,6 +1,10 @@
 import React from 'react'
 import { StyleSheetManager } from 'styled-components'
 
+// Hard to use with CSS-in-JS libs. #793
+// This is a component taken from some github issues
+// https://github.com/netlify/netlify-cms/issues/793
+// https://github.com/netlify/netlify-cms/issues/1408
 export class CSSInjector extends React.Component {
   state = {
     iframeRef: ''
