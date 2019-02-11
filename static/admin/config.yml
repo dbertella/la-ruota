@@ -5,6 +5,8 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+display_url: https://la-ruota.netlify.com
+
 collections:
   - name: 'news'
     label: 'News'
