@@ -1,6 +1,7 @@
 ---
 templateKey: about-page
 title: Dicono di noi
+image: /img/la-foce-notte.png
 ---
 ### “Da Provare... E Riprovare!”
 
