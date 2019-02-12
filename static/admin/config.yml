@@ -49,15 +49,41 @@ collections:
               fields: [{ label: Image, name: image, widget: image }],
             }
           - { label: 'Body', name: 'body', widget: 'markdown' }
-      - file: 'src/pages/about/index.md'
-        label: 'About'
-        name: 'about'
+      - file: 'src/pages/dicono-di-noi/index.md'
+        label: 'Dicono di noi'
+        name: 'dicono-di-noi'
         fields:
           - {
               label: 'Template Key',
               name: 'templateKey',
               widget: 'hidden',
               default: 'about-page',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: Image, name: image, widget: image }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - file: 'src/pages/prenotazioni/index.md'
+        label: 'Prenotazioni'
+        name: 'prenotazioni'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'about-page',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: Image, name: image, widget: image }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - file: 'src/pages/contatti/index.md'
+        label: 'Contatti'
+        name: 'contatti'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'contact-page',
             }
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: Image, name: image, widget: image }

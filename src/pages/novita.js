@@ -31,7 +31,7 @@ export default class NewsPage extends React.Component {
     return (
       <Layout>
         <Wrapper>
-          {posts.concat(posts).concat(posts).concat(posts).map(({ node: post }) => (
+          {posts.map(({ node: post }) => (
             <div className="card" key={post.id}>
               <div className="card-image">
                 <figure className="image">

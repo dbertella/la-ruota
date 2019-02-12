@@ -1,15 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import FullWidthImgTitle from '../components/FullWidthImg'
 import Content, { HTMLContent } from '../components/Content'
+import ContactForm from '../components/ContactForm'
+import FullWidthImgTitle from '../components/FullWidthImg'
+import Layout from '../components/Layout'
 
-export const AboutPageTemplate = ({ title, content, image, contentComponent }) => {
+export const ContactPageTemplate = ({ title, image, content, contentComponent }) => {
   const PageContent = contentComponent || Content
+
   return (
     <Layout>
-
       <FullWidthImgTitle title={title} image={image} />
       <section className="section section--gradient">
         <div className="container">
@@ -17,6 +18,7 @@ export const AboutPageTemplate = ({ title, content, image, contentComponent }) =
             <div className="column is-10 is-offset-1">
               <div className="section">
                 <PageContent className="content" content={content} />
+                <ContactForm />
               </div>
             </div>
           </div>
@@ -26,34 +28,34 @@ export const AboutPageTemplate = ({ title, content, image, contentComponent }) =
   )
 }
 
-AboutPageTemplate.propTypes = {
+ContactPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   contentComponent: PropTypes.func
 }
 
-const AboutPage = ({ data }) => {
+const ContactPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-      <AboutPageTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        image={post.frontmatter.image}
-        content={post.html}
-      />
+    <ContactPageTemplate
+      contentComponent={HTMLContent}
+      title={post.frontmatter.title}
+      image={post.frontmatter.image}
+      content={post.html}
+    />
   )
 }
 
-AboutPage.propTypes = {
+ContactPage.propTypes = {
   data: PropTypes.object.isRequired
 }
 
-export default AboutPage
+export default ContactPage
 
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+export const contactPageQuery = graphql`
+  query ContactPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
