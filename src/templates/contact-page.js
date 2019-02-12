@@ -10,7 +10,7 @@ export const ContactPageTemplate = ({ title, image, content, contentComponent })
   const PageContent = contentComponent || Content
 
   return (
-    <Layout>
+    <>
       <FullWidthImgTitle title={title} image={image} />
       <section className="section section--gradient">
         <div className="container">
@@ -24,7 +24,7 @@ export const ContactPageTemplate = ({ title, image, content, contentComponent })
           </div>
         </div>
       </section>
-    </Layout>
+    </>
   )
 }
 
@@ -39,12 +39,14 @@ const ContactPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <ContactPageTemplate
-      contentComponent={HTMLContent}
-      title={post.frontmatter.title}
-      image={post.frontmatter.image}
-      content={post.html}
-    />
+    <Layout>
+      <ContactPageTemplate
+        contentComponent={HTMLContent}
+        title={post.frontmatter.title}
+        image={post.frontmatter.image}
+        content={post.html}
+      />
+    </Layout>
   )
 }
 

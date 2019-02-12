@@ -8,8 +8,7 @@ import Content, { HTMLContent } from '../components/Content'
 export const AboutPageTemplate = ({ title, content, image, contentComponent }) => {
   const PageContent = contentComponent || Content
   return (
-    <Layout>
-
+    <>
       <FullWidthImgTitle title={title} image={image} />
       <section className="section section--gradient">
         <div className="container">
@@ -22,7 +21,7 @@ export const AboutPageTemplate = ({ title, content, image, contentComponent }) =
           </div>
         </div>
       </section>
-    </Layout>
+    </>
   )
 }
 
@@ -37,12 +36,14 @@ const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
+    <Layout>
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         image={post.frontmatter.image}
         content={post.html}
       />
+    </Layout>
   )
 }
 
