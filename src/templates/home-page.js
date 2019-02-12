@@ -7,7 +7,7 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
-import Img from 'gatsby-image'
+import { Image } from '../components/Image'
 
 const Relative = styled.div`
   position: relative;
@@ -78,18 +78,6 @@ const Card = styled(Relative)`
   }
 `
 
-const Slide = ({ image }) => {
-  if (typeof image === 'string') {
-    return <img src={image} alt="" />
-  }
-  return (
-    <Img
-      fluid={image.childImageSharp.fluid}
-      alt=""
-    />
-  )
-}
-
 export const HomePageTemplate = ({
   title,
   subtitle,
@@ -128,7 +116,7 @@ export const HomePageTemplate = ({
       <Relative>
         <Slider {...settings}>
           {carousel.map(({ image }) => (
-            <Slide
+            <Image
               key={get(image, 'childImageSharp.fluid.src', image)}
               image={image}
             />
