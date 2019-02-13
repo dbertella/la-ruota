@@ -12,8 +12,8 @@ export const FullWidthImg = styled.div`
 `
 
 const Title = styled.h1`
-  box-shadow: 0.5rem 0 0 #f40, -0.5rem 0 0 #f40;
-  background-color: #f40;
+  box-shadow: 0.5rem 0 0 #880d0d, -0.5rem 0 0 #880d0d;
+  background-color: #880d0d;
   color: white;
   padding: 1rem;
 `
