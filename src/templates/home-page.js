@@ -99,7 +99,6 @@ export const HomePageTemplate = ({
     cssEase: 'linear'
   }
   const edges = sortBy(instaFeed.edges, 'timestamp').reverse()
-  console.log(edges)
   return (
     <>
       <Helmet>
@@ -174,7 +173,6 @@ HomePageTemplate.propTypes = {
 
 const HomePage = ({ data }) => {
   const { markdownRemark: post, allInstaNode } = data
-  console.log(post)
   return (
     <Layout>
       <HomePageTemplate
