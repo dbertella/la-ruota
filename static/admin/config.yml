@@ -109,7 +109,7 @@ collections:
               fields:
                 [
                   { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: text },
+                  { label: Description, name: description, widget: markdown },
                   {
                     label: Blurbs,
                     name: blurbs,

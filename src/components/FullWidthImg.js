@@ -12,9 +12,8 @@ export const FullWidthImg = styled.div`
 `
 
 const Title = styled.h1`
-  box-shadow: 0.5rem 0 0 #880d0d, -0.5rem 0 0 #880d0d;
-  background-color: #880d0d;
-  color: white;
+  background-color: rgba(255,255,255,0.7);
+  color: #444;
   padding: 1rem;
 `
 
@@ -26,6 +25,6 @@ export default ({ title, image }) => (
       })`
     }}
   >
-    <Title className="has-text-weight-bold is-size-1">{title}</Title>
+    <Title className="has-text-weight-bold is-size-2">{title}</Title>
   </FullWidthImg>
 )

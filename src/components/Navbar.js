@@ -32,13 +32,19 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar"
         role="navigation"
         aria-label="main-navigation"
+        style={{ background: 'transparent' }}
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
+            <Link
+              to="/"
+              className="navbar-item"
+              style={{ background: 'transparent' }}
+              title="Logo"
+            >
               <Logo />
             </Link>
             {/* Hamburger menu */}
@@ -50,25 +56,46 @@ const Navbar = class extends React.Component {
           </div>
           <div id="navMenu" className="navbar-menu">
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/menu">
+              <Link
+                className="navbar-item"
+                style={{ background: 'transparent' }}
+                to="/menu"
+              >
                 Menu
               </Link>
-              <Link className="navbar-item" to="/prenotazioni">
+              <Link
+                className="navbar-item"
+                style={{ background: 'transparent' }}
+                to="/prenotazioni"
+              >
                 Prenotazioni
               </Link>
-              <Link className="navbar-item" to="/contatti">
+              <Link
+                className="navbar-item"
+                style={{ background: 'transparent' }}
+                to="/contatti"
+              >
                 Contatti
               </Link>
-              <Link className="navbar-item" to="/dicono-di-noi">
+              <Link
+                className="navbar-item"
+                style={{ background: 'transparent' }}
+                to="/dicono-di-noi"
+              >
                 Dicono di noi
               </Link>
-              <Link className="navbar-item" to="/novita">
+              <Link
+                className="navbar-item"
+                style={{ background: 'transparent' }}
+                to="/novita"
+              >
                 Novità
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
+                style={{ background: 'transparent' }}
                 href="https://www.instagram.com/laruotaim/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -79,6 +106,7 @@ const Navbar = class extends React.Component {
               </a>
               <a
                 className="navbar-item"
+                style={{ background: 'transparent' }}
                 href="https://www.facebook.com/laruotaimperia/"
                 target="_blank"
                 rel="noopener noreferrer"

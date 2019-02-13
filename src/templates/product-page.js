@@ -29,8 +29,8 @@ export const ProductPageTemplate = ({
               <div className="content">
                 <div className="columns">
                   <div className="column is-7">
-                    <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
-                    <p>{description}</p>
+                    <h3 className="has-text-weight-semibold is-size-2">{intro.heading}</h3>
+                    <p>{intro.description}</p>
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
@@ -90,6 +90,8 @@ ProductPageTemplate.propTypes = {
   heading: PropTypes.string,
   description: PropTypes.string,
   intro: PropTypes.shape({
+    heading: PropTypes.string,
+    description: PropTypes.string,
     blurbs: PropTypes.array
   }),
   main: PropTypes.shape({
