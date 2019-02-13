@@ -1,7 +1,7 @@
 ---
 templateKey: contact-page
 title: Prenotazioni
-image: /img/la-foce-notte.png
+image: /img/29090511_411918485927209_4379232587252498432_n.jpg
 ---
 
 ## Chiamaci

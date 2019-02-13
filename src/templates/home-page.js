@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { get, take, sortBy } from 'lodash'
+import { get, take } from 'lodash'
 import Slider from 'react-slick'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
@@ -98,7 +98,7 @@ export const HomePageTemplate = ({
     autoplaySpeed: 10000,
     cssEase: 'linear'
   }
-  const edges = sortBy(instaFeed.edges, 'timestamp').reverse()
+
   return (
     <>
       <Helmet>
@@ -143,7 +143,7 @@ export const HomePageTemplate = ({
             <div className="column is-10 is-offset-1">
               <Grid>
                 {take(
-                  edges.map(({ node }) => (
+                  instaFeed.edges.map(({ node }) => (
                     <Card key={node.id}>
                       <img src={node.thumbnails[2].src} alt={node.caption} />
                       <Overlay>

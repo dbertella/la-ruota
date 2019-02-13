@@ -5,12 +5,11 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
-import { FullWidthImg } from '../components/FullWidthImg'
+import FullWidthImg from '../components/FullWidthImg'
 
 export const BlogPostTemplate = ({
   content,
   contentComponent,
-  description,
   tags,
   title,
   image,
@@ -20,20 +19,13 @@ export const BlogPostTemplate = ({
 
   return (
     <>
-      <FullWidthImg
-        style={{
-          backgroundImage: `url(${
-            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-          })`
-        }}
-      />
+      <FullWidthImg image={image} />
       <section className="section">
         {helmet || ''}
         <div className="container content">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <h1 className="has-text-weight-bold is-size-1">{title}</h1>
-              <p>{description}</p>
+              <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
               <PostContent content={content} />
               {tags && tags.length ? (
                 <div style={{ marginTop: `4rem` }}>

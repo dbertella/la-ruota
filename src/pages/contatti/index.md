@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 title: Contatti
-image: /img/la-foce-notte.png
+image: /img/35617536_270808226799285_8575054140932096000_n.jpg
 ---
 ### Contattaci
 
@@ -9,7 +9,7 @@ image: /img/la-foce-notte.png
 
 📧 info@laruotaimperia.com
 
- 
+
 
 ### Indirizzo
 
@@ -19,7 +19,7 @@ image: /img/la-foce-notte.png
 
 [Trovaci su Google Maps](https://maps.google.com/maps?q=Ristorante+la+Ruota,+Spianata+Luigi+Varese,+Imperia,+IM,+Italia&amp;hl=it&amp;sll=45.46407,9.171906&amp;sspn=0.184205,0.338516&amp;oq=la+ruota+imp&amp;hq=Ristorante+la+Ruota,&amp;hnear=Spianata+Luigi+Varese,+Imperia,+Liguria,+Italia&amp;t=m&amp;z=16)
 
- 
+
 
 #### Clicca sulla mappa per scoprire i parcheggi più vicini.
 

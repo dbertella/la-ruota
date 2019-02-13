@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import ContactForm from '../components/ContactForm'
-import FullWidthImgTitle from '../components/FullWidthImg'
+import FullWidthImg from '../components/FullWidthImg'
 import Layout from '../components/Layout'
 
 export const ContactPageTemplate = ({ title, image, content, contentComponent }) => {
@@ -11,15 +11,14 @@ export const ContactPageTemplate = ({ title, image, content, contentComponent })
 
   return (
     <>
-      <FullWidthImgTitle title={title} image={image} />
+      <FullWidthImg image={image} />
       <section className="section section--gradient">
-        <div className="container">
+        <div className="container content">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <div className="section">
-                <PageContent className="content" content={content} />
-                <ContactForm />
-              </div>
+              <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
+              <PageContent className="content" content={content} />
+              <ContactForm />
             </div>
           </div>
         </div>

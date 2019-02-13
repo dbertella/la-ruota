@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Il Nostro Menu alla Carta
-image: /img/la-foce-notte.png
+image: /img/26863894_1603219453100298_5786333030985498624_n.jpg
 heading: Cosa Offriamo
 description: >-
   Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il nostro menu
@@ -52,13 +52,13 @@ main:
     sardi e  una buona rappresentanza delle altre regioni d’Italia.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    image: /img/30604202_984371245067141_3002335826718752768_n.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    image: /img/35617536_270808226799285_8575054140932096000_n.jpg
   image3:
     alt: Coffee beans
-    image: /img/products-grid1.jpg
+    image: /img/50883760_131604997883093_8817560896456359312_n.jpg
 testimonials:
   - author: '"Pranzo con amici"'
     quote: >-

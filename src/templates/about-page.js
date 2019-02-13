@@ -2,21 +2,20 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import FullWidthImgTitle from '../components/FullWidthImg'
+import FullWidthImg from '../components/FullWidthImg'
 import Content, { HTMLContent } from '../components/Content'
 
 export const AboutPageTemplate = ({ title, content, image, contentComponent }) => {
   const PageContent = contentComponent || Content
   return (
     <>
-      <FullWidthImgTitle title={title} image={image} />
+      <FullWidthImg image={image} />
       <section className="section section--gradient">
-        <div className="container">
+        <div className="container content">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <div className="section">
-                <PageContent className="content" content={content} />
-              </div>
+              <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
+              <PageContent className="content" content={content} />
             </div>
           </div>
         </div>
