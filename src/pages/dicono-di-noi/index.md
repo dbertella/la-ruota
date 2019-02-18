@@ -3,23 +3,15 @@ templateKey: about-page
 title: Dicono di noi
 image: /img/29401053_439974526423503_4197193190140280832_n.jpg
 ---
-### “Da Provare... E Riprovare!”
+### _****_[_**\- In queste serate di primo autunno, quando è ancora possibile cenare sotto la luna, veniteci e  non ve ne pentirete se siete dei sensibili a certe atmosfere … (Buongiornogourmet di Luigi Filippi)**_](http://www.buongiornogourmet.it/la-recensione-a-imperia-ristorante-la-ruota-2/)_****_
 
-Il ristorante La Ruota si trova in un borgo tranquillo e con una vista mozzafiato. Ho pranzato con alcuni amici a due passi dal mare.\
-Antipasti deliziosi... moscardini con porcini e un ottimo polpo cucinato in modo semplice ma squisito.\
-Anche il primo, abbondante e gustoso, è stato molto apprezzato.\
-Servizio cordiale e professionale.\
-Assolutamente da provare... e riprovare.
-
-
+_****_[_**\-  Nel piatto, pescato di assoluta freschezza, elaborato lo stretto necessario. Si beve bene. Il servizio è svolto dai proprietari con premura e franchezza. (Il Golosario di Paolo Massobrio)**_](https://www.ilgolosario.it/index.php?cID=21027&stackID=14811&bID=14499&btask=passthru_stack&ccm_token=1539287106:2f969d1647e476502a33983a22250047&method=getSocial)_****_
 
 ### “Pranzo Con Amici”
 
 Splendido pranzo in riva al mare. Il cibo era ottimo e il servizio eccellente.\
 Facilissimo da raggiungere, con una vista mozzafiato sul mare e sulla collina.\
 Ve lo consiglio vivamente
-
-
 
 ### “Piacevolissimo Pranzo Sul Mare”
 
