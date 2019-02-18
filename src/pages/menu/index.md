@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Il Nostro Menu alla Carta
-image: /img/26863894_1603219453100298_5786333030985498624_n.jpg
+image: /img/29090588_187364998715856_5683502580387282944_n.jpg
 heading: Cosa Offriamo
 description: >-
   Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il nostro menu
@@ -23,20 +23,10 @@ intro:
         Pescato del giorno con patate e olive taggiasche - Filetto di tonno alla
         griglia con ratatuille - Gamberoni di Oneglia alla griglia - Fritto
         misto*
-  heading: Cosa Offriamo
+  heading: Il Nostro Menu
   description: >-
-    - improntato su una cucina mediterranea
-
-    - sempre basata sul pesce fresco e prodotti del territorio
-
-    - sempre preparati al momento
-
-
-    Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il nostro
-    menu varia SEMPRE, eh sì!
-
-    Ma vi abbiamo scritto comunque qualche esempio di piatti tipici per mettervi
-    l’acquolina in bocca…
+    # Improntato su una cucina mediterranea sempre basata sul pesce fresco e
+    prodotti del territorio.
 main:
   heading: >-
     E molto altro… in base a quello che porta il nostro Mare, oppure venite da
