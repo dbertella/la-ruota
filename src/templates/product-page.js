@@ -7,12 +7,13 @@ import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import FullWidthImg from '../components/FullWidthImg'
+import { HTMLContent } from '../components/Content'
 
 export const ProductPageTemplate = ({
   image,
-  title,
-  heading,
-  description,
+  // title,
+  // heading,
+  // description,
   intro,
   main,
   testimonials,
@@ -28,7 +29,7 @@ export const ProductPageTemplate = ({
             <div className="columns">
               <div className="column is-7">
                 <h1 className="has-text-weight-semibold is-size-2">{intro.heading}</h1>
-                <p>{intro.description}</p>
+                <HTMLContent className="content" content={intro.description} />
               </div>
             </div>
             <Features gridItems={intro.blurbs} />
@@ -107,8 +108,8 @@ ProductPageTemplate.propTypes = {
 }
 
 const ProductPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
-
+  const { frontmatter, html } = data.markdownRemark
+  console.log(html)
   return (
     <Layout>
       <ProductPageTemplate
@@ -139,6 +140,7 @@ export default ProductPage
 export const productPageQuery = graphql`
   query ProductPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
+      html
       frontmatter {
         title
         image {
