@@ -26,8 +26,6 @@ Pricing.propTypes = {
   data: PropTypes.arrayOf(
     PropTypes.shape({
       plan: PropTypes.string,
-      price: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-      description: PropTypes.string,
       items: PropTypes.array
     })
   )

@@ -8,6 +8,13 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-styled-components',
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Zilla Slab`],
+        display: "swap",
+      },
+    },
+    {
       resolve: `gatsby-source-instagram`,
       options: {
         username: `laruotaim`,

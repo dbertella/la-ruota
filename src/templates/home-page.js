@@ -30,8 +30,7 @@ const Title = styled.h1`
 `
 const SubTitle = styled.h2`
   margin-top: -1.25rem;
-  margin-bottom: 1.5rem;
-  color: #888;
+  color: #4a3400;
   font-weight: 800;
   font-size: 1.3rem;
 `
