@@ -7,47 +7,59 @@ description: >-
   Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il nostro menu
   varia SEMPRE, eh sì! Ma vi abbiamo scritto comunque qualche esempio di piatti
   tipici per mettervi l’acquolina in bocca…
+pricing:
+  heading: I Suggerimenti dello Chef
+  plans:
+    - items:
+        - Insalata di polpo con fagiolini all’extravergine
+        - Sarde in Saor
+        - Ostriche fines claires
+        - Calamari con porcini su panissa al pistacchio
+        - Carpaccio di tonno con salsa agli agrumi
+      plan: Antipasti
+    - items:
+        - Spaghetti alle vongole veraci
+        - Linguine all’astice
+        - Risotto ai frutti di mare
+        - Trofie al pesto
+        - Pasta alla bottarga di muggine con trombette
+      plan: Primi Piatti
+    - items:
+        - Pescato del giorno con patate e olive taggiasche
+        - Filetto di tonno alla griglia con ratatuille
+        - Gamberoni di Oneglia alla griglia
+        - Fritto misto*
+      plan: Secondi Piatti
 intro:
   blurbs:
     - image: /img/menu_06.png
       text: >-
-        Insalata di polpo con fagiolini all’extravergine - Sarde in Saor -
-        Ostriche fines claires - Calamari con porcini su panissa al pistacchio -
-        Carpaccio di tonno con salsa agli agrumi
+        Improntato su una cucina mediterranea
     - image: /img/conchiglia.png
       text: >-
-        Spaghetti alle vongole veraci - Linguine all’astice - Risotto ai frutti
-        di mare - Trofie al pesto - Pasta alla bottarga di muggine con trombette
+        Basato sul pesce fresco e prodotti del territorio
     - image: /img/menu_03.png
       text: >-
-        Pescato del giorno con patate e olive taggiasche - Filetto di tonno alla
-        griglia con ratatuille - Gamberoni di Oneglia alla griglia - Fritto
-        misto*
+        Preparato al momento
   heading: Il Nostro Menu
   description: >-
-    # Improntato su una cucina mediterranea sempre basata sul pesce fresco e
-    prodotti del territorio.
+    Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il nostro menu varia SEMPRE, eh sì!
+    Ma vi abbiamo scritto comunque qualche esempio di piatti tipici per mettervi l’acquolina in bocca…
+    Abbiamo pure una buona scelta di dolci tra i quali il torroncino ghiacciato con salsa alla menta, il creme caramel, la torta al limone o al cioccolato ed altri a seconda della stagione. La nostra carta dei vini contiene una vasta gamma di vini liguri e sardi e una buona rappresentanza delle altre regioni d’Italia.
 main:
   heading: >-
-    E molto altro… in base a quello che porta il nostro Mare, oppure venite da
-    noi, lasciatevi consigliare dallo Chef e scoprite il pesce fresco del
-    giorno!
-  description: >
-    I dolci: Abbiamo pure una buona scelta di dolci tra i quali il torroncino
-    ghiacciato con salsa alla menta, il creme caramel, la torta al limone o al
-    cioccolato ed altri a seconda della stagione.
-
-
-    I vini: La nostra carta dei vini contiene una vasta gamma di vini liguri e
-    sardi e  una buona rappresentanza delle altre regioni d’Italia.
+    Oppure venite da noi…
+  description: >-
+    e lasciatevi consigliare dallo Chef e scoprite il pesce fresco del giorno!
+    
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
+    alt: Gamberoni Freschi
     image: /img/30604202_984371245067141_3002335826718752768_n.jpg
   image2:
-    alt: A green cup of a coffee on a wooden table
+    alt: Moscardini
     image: /img/35617536_270808226799285_8575054140932096000_n.jpg
   image3:
-    alt: Coffee beans
+    alt: Riccio di mare
     image: /img/50883760_131604997883093_8817560896456359312_n.jpg
 testimonials:
   - author: '"Pranzo con amici"'
@@ -61,29 +73,5 @@ testimonials:
       mare. Grande cortesia del personale. Cosa dire della posizione? Una
       Terrazza sul mare
 full_image: /img/la-foce.png
-pricing:
-  heading: I Suggerimenti dello Chef
-  description: E molto altro... in base a quello che porta il nostro Mare
-  plans:
-    - items:
-      - Insalata di polpo con fagiolini all’extravergine
-      - Sarde in Saor
-      - Ostriche fines claires
-      - Calamari con porcini su panissa al pistacchio
-      - Carpaccio di tonno con salsa agli agrumi
-      plan: Antipasti
-    - items:
-      - Spaghetti alle vongole veraci
-      - Linguine all’astice
-      - Risotto ai frutti di mare
-      - Trofie al pesto
-      - Pasta alla bottarga di muggine con trombette
-      plan: Primi Piatti
-    - items:
-      - Pescato del giorno con patate e olive taggiasche
-      - Filetto di tonno alla griglia con ratatuille
-      - Gamberoni di Oneglia alla griglia
-      - Fritto misto*
-      plan: Secondi Piatti
----
 
+---

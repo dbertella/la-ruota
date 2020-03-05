@@ -23,6 +23,10 @@ export const ProductPageTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
+            <h2 className="has-text-weight-semibold is-size-2">
+              {pricing.heading}
+            </h2>
+            <Pricing data={pricing.plans} />
             <div className="columns">
               <div className="column is-7">
                 <h1 className="has-text-weight-semibold is-size-2">
@@ -62,25 +66,20 @@ export const ProductPageTemplate = ({
               </div>
             </div>
             <Testimonials testimonials={testimonials} />
-            <div
-              className="full-width-image-container"
-              style={{
-                backgroundImage: `url(${
-                  fullImage.childImageSharp
-                    ? fullImage.childImageSharp.fluid.src
-                    : fullImage
-                })`
-              }}
-            />
-            <h2 className="has-text-weight-semibold is-size-2">
-              {pricing.heading}
-            </h2>
-            <Pricing data={pricing.plans} />
-            <p className="is-size-5">{pricing.description}</p>
           </div>
         </div>
       </div>
     </section>
+    <div
+      className="full-width-image-container has-margin-top-0 has-margin-bottom-0"
+      style={{
+        backgroundImage: `url(${
+          fullImage.childImageSharp
+            ? fullImage.childImageSharp.fluid.src
+            : fullImage
+        })`
+      }}
+    />
   </>
 );
 
@@ -105,7 +104,6 @@ ProductPageTemplate.propTypes = {
   fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   pricing: PropTypes.shape({
     heading: PropTypes.string,
-    description: PropTypes.string,
     plans: PropTypes.array
   })
 };
@@ -216,7 +214,6 @@ export const productPageQuery = graphql`
         }
         pricing {
           heading
-          description
           plans {
             items
             plan

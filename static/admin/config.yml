@@ -8,110 +8,129 @@ public_folder: /img
 display_url: https://la-ruota.netlify.com
 
 collections:
-  - name: 'news'
-    label: 'News'
-    folder: 'src/pages/news'
+  - name: "news"
+    label: "News"
+    folder: "src/pages/news"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {
-          label: 'Template Key',
-          name: 'templateKey',
-          widget: 'hidden',
-          default: 'blog-post',
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "blog-post",
         }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text" }
       - { label: Image, name: image, widget: image }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: "Body", name: "body", widget: "markdown" }
       - {
-        label: Testimonials,
-        name: testimonials,
-        widget: list,
-        fields:
-          [
-            { label: Quote, name: quote, widget: string },
-            { label: Author, name: author, widget: string },
-          ],
-      }
-      - { label: 'Tags', name: 'tags', widget: 'list' }
+          label: Testimonials,
+          name: testimonials,
+          widget: list,
+          fields:
+            [
+              { label: Quote, name: quote, widget: string },
+              { label: Author, name: author, widget: string },
+            ],
+        }
+      - { label: "Tags", name: "tags", widget: "list" }
 
-  - name: 'pages'
-    label: 'Pages'
+  - name: "pages"
+    label: "Pages"
     files:
-      - file: 'src/pages/index.md'
-        label: 'Home'
-        name: 'home'
+      - file: "src/pages/index.md"
+        label: "Home"
+        name: "home"
         fields:
           - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'home-page',
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "home-page",
             }
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'SubTitle', name: 'subtitle', widget: 'string' }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "SubTitle", name: "subtitle", widget: "string" }
           - {
-              label: 'Carousel',
-              name: 'carousel',
-              widget: 'list',
+              label: "Carousel",
+              name: "carousel",
+              widget: "list",
               fields: [{ label: Image, name: image, widget: image }],
             }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-      - file: 'src/pages/dicono-di-noi/index.md'
-        label: 'Dicono di noi'
-        name: 'dicono-di-noi'
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "src/pages/dicono-di-noi/index.md"
+        label: "Dicono di noi"
+        name: "dicono-di-noi"
         fields:
           - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'about-page',
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "about-page",
             }
-          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: "Title", name: "title", widget: "string" }
           - { label: Image, name: image, widget: image }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-      - file: 'src/pages/prenotazioni/index.md'
-        label: 'Prenotazioni'
-        name: 'prenotazioni'
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "src/pages/prenotazioni/index.md"
+        label: "Prenotazioni"
+        name: "prenotazioni"
         fields:
           - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'contact-page',
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "contact-page",
             }
-          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: "Title", name: "title", widget: "string" }
           - { label: Image, name: image, widget: image }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-      - file: 'src/pages/contatti/index.md'
-        label: 'Contatti'
-        name: 'contatti'
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "src/pages/contatti/index.md"
+        label: "Contatti"
+        name: "contatti"
         fields:
           - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'about-page',
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "about-page",
             }
-          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: "Title", name: "title", widget: "string" }
           - { label: Image, name: image, widget: image }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-      - file: 'src/pages/menu/index.md'
-        label: 'Menu Page'
-        name: 'menu'
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "src/pages/menu/index.md"
+        label: "Menu Page"
+        name: "menu"
         fields:
           - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'product-page',
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "product-page",
             }
           - { label: Title, name: title, widget: string }
           - { label: Image, name: image, widget: image }
           - { label: Heading, name: heading, widget: string }
           - { label: Description, name: description, widget: string }
+          - {
+              label: Pricing,
+              name: pricing,
+              widget: object,
+              fields:
+                [
+                  { label: Heading, name: heading, widget: string },
+                  {
+                    label: Plans,
+                    name: plans,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Ttile, name: plan, widget: string },
+                        { label: Items, name: items, widget: list },
+                      ],
+                  },
+                ],
+            }
           - {
               label: Intro,
               name: intro,
@@ -183,23 +202,3 @@ collections:
                 ],
             }
           - { label: Full_image, name: full_image, widget: image }
-          - {
-              label: Pricing,
-              name: pricing,
-              widget: object,
-              fields:
-                [
-                  { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: string },
-                  {
-                    label: Plans,
-                    name: plans,
-                    widget: list,
-                    fields:
-                      [
-                        { label: Ttile, name: plan, widget: string },
-                        { label: Items, name: items, widget: list },
-                      ],
-                  },
-                ],
-            }
