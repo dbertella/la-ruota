@@ -63,7 +63,7 @@ testimonials:
 full_image: /img/la-foce.png
 pricing:
   heading: I Suggerimenti dello Chef
-  description: Oggi lo chef vi consiglia
+  description: E molto altro... in base a quello che porta il nostro Mare
   plans:
     - items:
       - Insalata di polpo con fagiolini all’extravergine
@@ -84,7 +84,6 @@ pricing:
       - Filetto di tonno alla griglia con ratatuille
       - Gamberoni di Oneglia alla griglia
       - Fritto misto*
-      - E molto altro... in base a quello che porta il nostro Mare
       plan: Secondi Piatti
 ---
 
