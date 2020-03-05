@@ -11,9 +11,6 @@ import { HTMLContent } from '../components/Content'
 
 export const ProductPageTemplate = ({
   image,
-  // title,
-  // heading,
-  // description,
   intro,
   main,
   testimonials,
