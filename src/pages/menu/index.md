@@ -65,27 +65,26 @@ pricing:
   heading: I Suggerimenti dello Chef
   description: Oggi lo chef vi consiglia
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
-      items:
-        - Antipasto del giorno o Primo piatto del giorno
-        - Pesce del golfo e contorno
-        - Dessert della casa
-      plan: Menu Tirreno
-      price: '37'
-    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
-      items:
-        - Antipasti misti di mare
-        - Pesce del golfo e contorno
-        - Dessert della casa
-      plan: Menu Ponente
-      price: '41'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
-      items:
-        - Antipasti misti di mare
-        - Primo piatto del giorno
-        - Pesce del golfo e contorno
-        - Dessert della casa
-      plan: Menu Mediterraneo
-      price: '46'
+    - items:
+      - Insalata di polpo con fagiolini all’extravergine
+      - Sarde in Saor
+      - Ostriche fines claires
+      - Calamari con porcini su panissa al pistacchio
+      - Carpaccio di tonno con salsa agli agrumi
+      plan: Antipasti
+    - items:
+      - Spaghetti alle vongole veraci
+      - Linguine all’astice
+      - Risotto ai frutti di mare
+      - Trofie al pesto
+      - Pasta alla bottarga di muggine con trombette
+      plan: Primi Piatti
+    - items:
+      - Pescato del giorno con patate e olive taggiasche
+      - Filetto di tonno alla griglia con ratatuille
+      - Gamberoni di Oneglia alla griglia
+      - Fritto misto*
+      - E molto altro... in base a quello che porta il nostro Mare
+      plan: Secondi Piatti
 ---
 
