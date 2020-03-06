@@ -14,7 +14,7 @@ pricing:
         - Insalata di polpo con fagiolini all’extravergine
         - Sarde in Saor
         - Ostriche fines claires
-        - Calamari con porcini su panissa al pistacchio
+        - Calamari con carciofi e polentina
         - Carpaccio di tonno con salsa agli agrumi
       plan: Antipasti
     - items:
@@ -33,25 +33,23 @@ pricing:
 intro:
   blurbs:
     - image: /img/menu_06.png
-      text: >-
-        Improntato su una cucina mediterranea
+      text: Improntato su una cucina mediterranea
     - image: /img/conchiglia.png
-      text: >-
-        Basato sul pesce fresco e prodotti del territorio
+      text: Basato sul pesce fresco e prodotti del territorio
     - image: /img/menu_03.png
-      text: >-
-        Preparato al momento
+      text: Preparato al momento
   heading: Il Nostro Menu
   description: >-
-    Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il nostro menu varia SEMPRE, eh sì!
-    Ma vi abbiamo scritto comunque qualche esempio di piatti tipici per mettervi l’acquolina in bocca…
-    Abbiamo pure una buona scelta di dolci tra i quali il torroncino ghiacciato con salsa alla menta, il creme caramel, la torta al limone o al cioccolato ed altri a seconda della stagione. La nostra carta dei vini contiene una vasta gamma di vini liguri e sardi e una buona rappresentanza delle altre regioni d’Italia.
+    Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il nostro
+    menu varia SEMPRE, eh sì! Ma vi abbiamo scritto comunque qualche esempio di
+    piatti tipici per mettervi l’acquolina in bocca… Abbiamo pure una buona
+    scelta di dolci tra i quali il torroncino ghiacciato con salsa alla menta,
+    il creme caramel, la torta al limone o al cioccolato ed altri a seconda
+    della stagione. La nostra carta dei vini contiene una vasta gamma di vini
+    liguri e sardi e una buona rappresentanza delle altre regioni d’Italia.
 main:
-  heading: >-
-    Oppure venite da noi…
-  description: >-
-    e lasciatevi consigliare dallo Chef e scoprite il pesce fresco del giorno!
-    
+  heading: Oppure venite da noi…
+  description: e lasciatevi consigliare dallo Chef e scoprite il pesce fresco del giorno!
   image1:
     alt: Gamberoni Freschi
     image: /img/30604202_984371245067141_3002335826718752768_n.jpg
@@ -73,5 +71,4 @@ testimonials:
       mare. Grande cortesia del personale. Cosa dire della posizione? Una
       Terrazza sul mare
 full_image: /img/la-foce.png
-
 ---
