@@ -10,6 +10,11 @@ import ProductPagePreview from './preview-templates/ProductPagePreview'
 
 // CMS.registerPreviewTemplate('about', AboutPagePreview)
 
+CMS.registerPreviewTemplate('take-away', props => (
+  <CSSInjector>
+    <AboutPagePreview {...props} />
+  </CSSInjector>
+))
 CMS.registerPreviewTemplate('dicono-di-noi', props => (
   <CSSInjector>
     <AboutPagePreview {...props} />
