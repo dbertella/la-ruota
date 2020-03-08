@@ -8,7 +8,7 @@ Non hai voglia di cucinare?
 
 Non hai voglia di uscire per pranzo o cena?
 
-Da ggi puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa tua!
+Da oggi puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa tua!
 
 ![Take away logo](/img/la-ruota-take-away.png)
 
