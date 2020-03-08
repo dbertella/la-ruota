@@ -99,7 +99,7 @@ const Navbar = class extends React.Component {
                 Novità
               </Link>
             </div>
-            <div className="navbar-end has-text-centered">
+            <div className="navbar-end has-text-centered is-flex">
               <a
                 className="navbar-item"
                 style={{ background: 'transparent' }}

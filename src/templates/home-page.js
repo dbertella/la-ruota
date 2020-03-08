@@ -1,17 +1,17 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import styled from 'styled-components'
-import { get, take } from 'lodash'
-import Slider from 'react-slick'
-import Helmet from 'react-helmet'
-import { graphql } from 'gatsby'
-import Content, { HTMLContent } from '../components/Content'
-import Layout from '../components/Layout'
-import { Image } from '../components/Image'
+import React from "react";
+import PropTypes from "prop-types";
+import styled from "styled-components";
+import { get, take } from "lodash";
+import Slider from "react-slick";
+import Helmet from "react-helmet";
+import { graphql } from "gatsby";
+import Content, { HTMLContent } from "../components/Content";
+import Layout from "../components/Layout";
+import { Image } from "../components/Image";
 
 const Relative = styled.div`
   position: relative;
-`
+`;
 const Absolute = styled.div`
   margin: 2rem 1rem 1rem;
   @media (min-width: 1088px) {
@@ -22,35 +22,38 @@ const Absolute = styled.div`
     background-color: rgba(255, 255, 255, 0.9) !important;
     margin: 0;
   }
-`
+`;
 const Title = styled.h1`
   font-size: 2.7rem;
   font-weight: 600;
   margin-bottom: 1rem;
-`
+`;
 const SubTitle = styled.h2`
   margin-top: -1.25rem;
   color: #4a3400;
   font-weight: 800;
   font-size: 1.3rem;
-`
+`;
 const WrapPageContent = styled.div`
   font-size: 1.1rem;
   color: #555;
   line-height: 1.6;
-`
+`;
 
 const Grid = styled.div`
-  @media (min-width: 1088px) {
-    grid-template-columns: 320px 320px 320px;
-  }
   grid-template-columns: 320px;
   grid-template-rows: 320px;
   display: grid;
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
   justify-content: center;
-`
+  @media (min-width: 768px) {
+    grid-template-columns: 320px 320px;
+  }
+  @media (min-width: 1088px) {
+    grid-template-columns: 320px 320px 320px;
+  }
+`;
 const Overlay = styled.div`
   position: absolute;
   bottom: 0;
@@ -63,7 +66,7 @@ const Overlay = styled.div`
   background: rgba(255, 255, 255, 0.7);
   font-size: 0.9rem;
   transition: transform 0.5s ease-in-out, background 0.5s ease-in-out;
-`
+`;
 
 const Card = styled(Relative)`
   position: relative;
@@ -75,7 +78,7 @@ const Card = styled(Relative)`
       transform: translateY(0%);
     }
   }
-`
+`;
 
 export const HomePageTemplate = ({
   title,
@@ -85,7 +88,7 @@ export const HomePageTemplate = ({
   contentComponent,
   instaFeed
 }) => {
-  const PageContent = contentComponent || Content
+  const PageContent = contentComponent || Content;
   const settings = {
     dots: true,
     infinite: true,
@@ -95,8 +98,8 @@ export const HomePageTemplate = ({
     autoplay: true,
     speed: 2000,
     autoplaySpeed: 10000,
-    cssEase: 'linear'
-  }
+    cssEase: "linear"
+  };
 
   return (
     <>
@@ -117,7 +120,7 @@ export const HomePageTemplate = ({
         <Slider {...settings}>
           {carousel.map(({ image }) => (
             <Image
-              key={get(image, 'childImageSharp.fluid.src', image)}
+              key={get(image, "childImageSharp.fluid.src", image)}
               image={image}
             />
           ))}
@@ -142,13 +145,19 @@ export const HomePageTemplate = ({
             <div className="column is-10 is-offset-1">
               <Grid>
                 {take(
-                  instaFeed.edges.map(({ node }) => (
-                    <Card key={node.id}>
-                      <img src={node.thumbnails[2].src} alt={node.caption} />
-                      <Overlay>
-                        <div>{node.caption}</div>
-                      </Overlay>
-                    </Card>
+                  instaFeed.edges.map(({ node, ...rest }) => (
+                    <a
+                      href={`https://www.instagram.com/p/${node.id}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Card key={node.id}>
+                        <img src={node.thumbnails[2].src} alt={node.caption} />
+                        <Overlay>
+                          <div>{node.caption}</div>
+                        </Overlay>
+                      </Card>
+                    </a>
                   )),
                   9
                 )}
@@ -158,8 +167,8 @@ export const HomePageTemplate = ({
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
 HomePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
@@ -168,10 +177,10 @@ HomePageTemplate.propTypes = {
   content: PropTypes.string,
   contentComponent: PropTypes.func,
   instaFeed: PropTypes.object
-}
+};
 
 const HomePage = ({ data }) => {
-  const { markdownRemark: post, allInstaNode } = data
+  const { markdownRemark: post, allInstaNode } = data;
   return (
     <Layout>
       <HomePageTemplate
@@ -183,14 +192,14 @@ const HomePage = ({ data }) => {
         instaFeed={allInstaNode}
       />
     </Layout>
-  )
-}
+  );
+};
 
 HomePage.propTypes = {
   data: PropTypes.object.isRequired
-}
+};
 
-export default HomePage
+export default HomePage;
 
 export const homePageQuery = graphql`
   query HomePage($id: String!) {
@@ -240,4 +249,4 @@ export const homePageQuery = graphql`
       }
     }
   }
-`
+`;
