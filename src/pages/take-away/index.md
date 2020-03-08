@@ -4,15 +4,15 @@ title: Take Away
 image: /img/26863894_1603219453100298_5786333030985498624_n.jpg
 ---
 
-Non hai voglia di cucinare?
+### Non hai voglia di cucinare?
 
-Non hai voglia di uscire per pranzo o cena?
+### Non hai voglia di uscire per pranzo o cena?
 
-Da Oggi puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa tua!
+### Da Oggi puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa tua!
 
 ![Take away logo](/img/la-ruota-take-away.png)
 
-Metodi di prenotazione:
+## Metodi di prenotazione
 
 - Attraverso il [form del nostro sito](/contatti) o per e-mail a [info@laruotaimperia.com](mailto:info@laruotaimperia.com), in questo caso l’ordine verrà confermato da noi telefonicamente.
 
