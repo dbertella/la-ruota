@@ -15,7 +15,7 @@ export default ({ image }) => (
   <FullWidthImg
     style={{
       backgroundImage: `url(${
-        !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+        !!image?.childImageSharp ? image.childImageSharp.fluid.src : image
       })`
     }}
   />
