@@ -1,14 +1,14 @@
 ---
 templateKey: about-page
 title: Take Away
-image: /img/26863894_1603219453100298_5786333030985498624_n.jpg
+image: /img/ingresso.jpg
 ---
 
-### Non hai voglia di cucinare?
+Non hai voglia di cucinare?
 
-### Non hai voglia di uscire per pranzo o cena?
+Non hai voglia di uscire per pranzo o cena?
 
-### Da Oggi puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa tua!
+Da ggi puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa tua!
 
 ![Take away logo](/img/la-ruota-take-away.png)
 
