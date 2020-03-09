@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 title: Contatti
-image: /img/30604202_984371245067141_3002335826718752768_n.jpg
+image: /img/img_3317.jpg
 ---
 ### Contattaci
 
