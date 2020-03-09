@@ -11,6 +11,8 @@ import { Image } from "../components/Image";
 
 const Relative = styled.div`
   position: relative;
+  max-width: 100%;
+  overflow-x: hidden;
 `;
 const Absolute = styled.div`
   margin: 2rem 1rem 1rem;
@@ -69,7 +71,6 @@ const Overlay = styled.div`
 `;
 
 const Card = styled(Relative)`
-  position: relative;
   height: 320px;
   width: 320px;
   overflow: hidden;
