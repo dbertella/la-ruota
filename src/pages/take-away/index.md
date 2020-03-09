@@ -3,6 +3,7 @@ templateKey: about-page
 title: Take Away
 image: /img/ingresso.jpg
 ---
+
 Non hai voglia di cucinare?
 
 Non hai voglia di uscire per pranzo o cena?
@@ -13,8 +14,8 @@ Da oggi puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa t
 
 ## [](hattps://la_ruota.netlify.com/img/takeawayLa_ruota2.pdf)Metodi di prenotazione
 
-* Attraverso il [form del nostro sito](/contatti) o per e-mail a [info@laruotaimperia.com](mailto:info@laruotaimperia.com), in questo caso l’ordine verrà confermato da noi telefonicamente.
-* Chiamandoci al numero **018361206** con le seguenti modalità:
+- Attraverso il [form del nostro sito](/contatti) o per e-mail a [info@laruotaimperia.com](mailto:info@laruotaimperia.com), in questo caso l’ordine verrà confermato da noi telefonicamente.
+- Chiamandoci al numero **018361206** con le seguenti modalità:
 
 entro le ore 10:30 per il Pranzo e entro le ore 14:30 per la cena.
 
@@ -28,4 +29,4 @@ Le pietanze del menu da asporto saranno servite refrigerate in contenitori di al
 
 Potete scegliere di avere la pietanza completa o quando possibile gli ingredienti separai pronti per essere impiattati, da assemblare a casa come dei veri chef!
 
-> #### **[\    Clicca Qui per scaricare il Nostro MENU](hattps://la_ruota.netlify.com/img/takeawayLa_ruota2.pdf)**
+#### **[Clicca Qui per scaricare il Nostro MENU](/img/la_ruota_takeaway.pdf)**
