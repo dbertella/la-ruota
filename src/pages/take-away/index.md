@@ -11,9 +11,9 @@ Da oggi puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa t
 
 ![Take away logo](/img/la-ruota-take-away.png)
 
-## [](/img/)[Menu](/img/Take_away_la_ruota_2.pdf)
+## [Menu](</img/take away La ruota 2.pdf>)
 
-## Metodi di prenotazione
+## [](</img/take away La ruota 2.pdf>)Metodi di prenotazione
 
 * Attraverso il [form del nostro sito](/contatti) o per e-mail a [info@laruotaimperia.com](mailto:info@laruotaimperia.com), in questo caso l’ordine verrà confermato da noi telefonicamente.
 * Chiamandoci al numero **018361206** con le seguenti modalità:
