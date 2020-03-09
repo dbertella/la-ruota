@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 title: Take Away
-image: /img/ingresso.jpg
+image: /img/la-foce-notte.png
 ---
 
 Non hai voglia di cucinare?
