@@ -150,8 +150,9 @@ export const HomePageTemplate = ({
                       href={`https://www.instagram.com/p/${node.id}`}
                       target="_blank"
                       rel="noopener noreferrer"
+                      key={node.id}
                     >
-                      <Card key={node.id}>
+                      <Card>
                         <img src={node.thumbnails[2].src} alt={node.caption} />
                         <Overlay>
                           <div>{node.caption}</div>
