@@ -5,7 +5,7 @@ module.exports = {
       "Ristorante La Ruota a Imperia, specialità pesce. Una cucina basata sul pesce fresco, i prodotti del territorio e piatti sempre preparati al momento.",
     author: `@LaRuotaImperia`,
     url: "https://www.laruotaimperia.it",
-    image: `src/img/la-ruota-take-away.png`
+    image: `/img/la-ruota-take-away.png`
   },
   plugins: [
     "gatsby-plugin-react-helmet",
