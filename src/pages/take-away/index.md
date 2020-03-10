@@ -20,9 +20,9 @@ entro le ore 10:30 per il Pranzo e entro le ore 14:30 per la cena.
 
 ## Orari di ritiro
 
-**Lunch**: dalle 11:00 alle 12:30
+**Lunch**: dalle 11:00 alle 13:30
 
-**Dinner**: entro le ore 18:00
+**Dinner**: orario da concordare
 
 Possibilità di consegna a domicilio :-)
 
