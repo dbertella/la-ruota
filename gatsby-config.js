@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: "Ristorante La Ruota | Imperia",
+    title: "Ristorante La Ruota Imperia",
     description:
-      "Ristorante La Ruota a Imperia, specialità pesce. Una cucina basata sul pesce fresco, i prodotti del territorio e piatti sempre preparati al momento."
+      "Ristorante La Ruota a Imperia, specialità pesce. Una cucina basata sul pesce fresco, i prodotti del territorio e piatti sempre preparati al momento.",
+    author: `@LaRuotaImperia`,
+    image: `src/img/la-ruota-take-away.png`
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -29,7 +31,7 @@ module.exports = {
         // Avoids sending pageview hits from custom paths
         // exclude: ["/preview/**", "/do-not-track/me/too/"],
         // Delays sending pageview hits on route update (in milliseconds)
-        pageTransitionDelay: 0,
+        pageTransitionDelay: 0
         // Enables Google Optimize using your container Id
         // optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
         // Enables Google Optimize Experiment ID
@@ -40,7 +42,7 @@ module.exports = {
         // sampleRate: 5,
         // siteSpeedSampleRate: 10,
         // cookieDomain: "example.com",
-      },
+      }
     },
     {
       resolve: `gatsby-source-instagram`,
@@ -106,6 +108,18 @@ module.exports = {
       resolve: "gatsby-plugin-netlify-cms",
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`
+      }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `gatsby-starter-default`,
+        short_name: `starter`,
+        start_url: `/`,
+        background_color: `#333`,
+        theme_color: `#333`,
+        display: `minimal-ui`,
+        icon: `src/img/favicon.png` // This path is relative to the root of the site.
       }
     },
     {
