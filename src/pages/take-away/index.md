@@ -5,7 +5,7 @@ image: /img/la-foce-notte.png
 ---
 Non hai voglia di cucinare?
 
-Non hai voglia di uscire per pranzo o cena?
+Non puoi uscire per pranzo o cena?
 
 Da oggi puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa tua!
 
@@ -15,16 +15,17 @@ Da oggi puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa t
 
 * Attraverso il [form del nostro sito](/contatti) o per e-mail a [](mailto:info@laruotaimperia.com)laruota.im@gmail.com, in questo caso l’ordine verrà confermato da noi telefonicamente.
 * Chiamandoci al numero **018361206** con le seguenti modalità:
+* Mandandoci un messaggio WhatsApp al numero del ristorante o cliccando su questo link---> [clicca qui](https://wa.me/39018361206)
 
-entro le ore 10:30 per il Pranzo e entro le ore 14:30 per la cena.
+entro le ore 11:30 per il Pranzo e entro le ore 16:00 per la Cena.
 
-## Orari di ritiro
+## Orari di consegna a domicilio gratuita
 
-**Lunch**: dalle 11:00 alle 13:30
+**Lunch**: dalle 12:00 alle 13:30
 
-**Dinner**: orario da concordare
+**Dinner**: dalle 19:30 alle 20:30
 
-Possibilità di consegna a domicilio :-)
+
 
 Le pietanze del menu da asporto saranno servite refrigerate in contenitori di alluminio o materiale biodegradabile, allegheremo una scheda contenente le istruzioni per il riscaldamento e la presentazione del piatto.
 
