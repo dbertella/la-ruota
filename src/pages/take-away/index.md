@@ -5,7 +5,7 @@ image: /img/la-foce-notte.png
 ---
 Non hai voglia di cucinare?
 
-Non puoi uscire per pranzo o cena?
+Non puoi uscire per cena?
 
 Da oggi puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa tua!
 
@@ -17,15 +17,11 @@ Da oggi puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa t
 * Chiamandoci al numero **018361206** con le seguenti modalità:
 * Mandandoci un messaggio WhatsApp al numero del ristorante o cliccando su questo link---> [clicca qui](https://wa.me/39018361206)
 
-entro le ore 11:30 per il Pranzo e entro le ore 16:00 per la Cena.
+entro le ore 14:00 del giorno di consegna
 
 ## Orari di consegna a domicilio gratuita
 
-**Lunch**: dalle 12:00 alle 13:30
-
-**Dinner**: dalle 19:30 alle 20:30
-
-
+**Dinner**: dalle 18:00 alle 20:00
 
 Le pietanze del menu da asporto saranno servite refrigerate in contenitori di alluminio o materiale biodegradabile, allegheremo una scheda contenente le istruzioni per il riscaldamento e la presentazione del piatto.
 
