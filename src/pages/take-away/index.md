@@ -7,7 +7,15 @@ Non hai voglia di cucinare?
 
 Non puoi uscire per cena?
 
+Hai voglia di un vino della nostra carta? 
+
 Da oggi puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa tua!
+
+#### **[Clicca Qui per scaricare il Nostro MENU](/img/la_ruota_takeaway.pdf)** 
+
+Scopri la nostra carta dei VINI --------> Clicca qui
+
+
 
 ![Take away logo](/img/la-ruota-take-away.png)
 
