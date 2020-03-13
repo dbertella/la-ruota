@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Acciugghe ripiene di Carciofi su pomodoro cuore di bue
+title: Acciughe ripiene di Carciofi su pomodoro cuore di bue
 date: 2020-03-13T15:39:49.022Z
 description: Ricetta del giorno
 image: /img/acciughe_c.jpg
@@ -65,4 +65,4 @@ Per l’impiattamento appoggiare l’acciuga sul pomodoro e accompagnarlo se des
 
 
 
-\*calcolo calorico effettuato dalla Dott.ssa Pierangela Motzo, biologo nutrizionista.
+**\*calcolo calorico effettuato dalla Dott.ssa , biologo nutrizionista.**
