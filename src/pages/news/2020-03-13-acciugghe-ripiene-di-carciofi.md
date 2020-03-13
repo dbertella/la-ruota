@@ -9,6 +9,8 @@ tags:
 ---
 # **Acciughe ripiene di carciofi su pomodori cuore di bue**
 
+Kcal :     Per porzione*
+
 Ingredienti per 3 persone:
 
 **Acciughe:**N 36
@@ -62,3 +64,7 @@ Applicare una leggera pressione, cospargere di pan grattato e infornare con uno 
 Durante la cottura tagliare i cuori di bue a spicchi e condirli con Olio extravergine e sale
 
 Per l’impiattamento appoggiare l’acciuga sul pomodoro e accompagnarlo se desiderate con misticanza
+
+
+
+\*calcolo calorico effettuato dalla Dott.ssa Pierangela Motzo, biologo nutrizionista.
