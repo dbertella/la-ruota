@@ -1,14 +1,12 @@
 ---
 templateKey: blog-post
-title: 'Acciugghe ripiene di Carciofi '
+title: Acciugghe ripiene di Carciofi su pomodoro cuore di bue
 date: 2020-03-13T15:39:49.022Z
 description: Ricetta del giorno
 image: /img/acciughe_c.jpg
 tags:
   - ricette
 ---
-# **Acciughe ripiene di carciofi su pomodori cuore di bue**
-
 Kcal :     Per porzione*
 
 Ingredienti per 3 persone:
