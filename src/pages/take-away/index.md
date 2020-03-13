@@ -11,11 +11,9 @@ Hai voglia di un vino della nostra carta?
 
 Da oggi puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa tua!
 
-#### **[Clicca Qui per scaricare il Nostro MENU](/img/la_ruota_takeaway.pdf)** 
+#### **[Clicca Qui per scaricare il Nostro MENU](/img/la_ruota_takeaway.pdf)**
 
 Scopri la nostra carta dei VINI --------> Clicca qui
-
-
 
 ![Take away logo](/img/la-ruota-take-away.png)
 
@@ -30,6 +28,8 @@ entro le ore 14:00 del giorno di consegna
 ## Orari di consegna a domicilio gratuita
 
 **Dinner**: dalle 18:00 alle 20:00
+
+Metodo di pagamento: Contanti
 
 Le pietanze del menu da asporto saranno servite refrigerate in contenitori di alluminio o materiale biodegradabile, allegheremo una scheda contenente le istruzioni per il riscaldamento e la presentazione del piatto.
 
