@@ -7,7 +7,7 @@ image: /img/acciughe_c.jpg
 tags:
   - ricette
 ---
-Kcal :     Per porzione*
+Kcal :   442  Per porzione*
 
 Ingredienti per 3 persone:
 
