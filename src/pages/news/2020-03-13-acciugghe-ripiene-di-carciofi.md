@@ -6,28 +6,20 @@ description: Ricetta del giorno
 image: /img/acciughe_c.jpg
 tags:
   - ricette
+recipe:
+  heading: Ingredienti per 3 persone
+  ingredients:
+    - item: '**Acciughe** N 36'
+    - item: '**Carciofi puliti** g 500 (circa 10 carciofi)'
+    - item: '**Uova** N 2'
+    - item: '**Pangrattato** g 100'
+    - item: '**Basilico** 2 mazzetti'
+    - item: Spicchi d'aglio N 2
+    - item: Pinoli g 10
+    - item: Cipolla di Tropea tritata N 1
+    - item: Pomodori cuore di bue N 3
+    - item: Olio extravergine g 30 circa
 ---
-Ingredienti per 3 persone:
-
-**Acciughe:**N 36
-
-**Carciofi puliti :**g 500 (circa 10 carciofi)
-
-**Uova**: N 2
-
-**Pangrattato**: g 100
-
-**Basilico**: 2 mazzetti
-
-Spicchi d’aglio : N 2
-
-Pinoli: g 10
-
-Cipolla di Tropea tritata: N 1
-
-Pomodori cuore di bue: N 3
-
-Olio extravergine : g 30 circa
 
 **Procedimento:**
 
@@ -63,12 +55,12 @@ Per l’impiattamento appoggiare l’acciuga sul pomodoro e accompagnarlo se des
 
 **Consigli della Nutrizionista , Dott.ssa Pierangela Motzo**
 
-La ricetta apporta circa 440 kcal per porzione. 
+La ricetta apporta circa 440 kcal per porzione.
 
 Se affianchiamo questo piatto a 100 grammi di pane, otteniamo un ottimo piatto bilanciato!
 
 E non dimentichiamo che :
 
-* Le Acciughe sono una buona fonte di proteine e acidi grassi Omega 3
-* Olio extravergine di oliva delle nostre zone e pinoli sono ricchi di grassi "buoni"(Monoinsaturi nell'olio e Omega6 nei pinoli) e Vitamina E.
-* I Carciofi sono verdure di stagione ricche di fibre, vitamine e Sali minerali.
+- Le Acciughe sono una buona fonte di proteine e acidi grassi Omega 3
+- Olio extravergine di oliva delle nostre zone e pinoli sono ricchi di grassi "buoni"(Monoinsaturi nell'olio e Omega6 nei pinoli) e Vitamina E.
+- I Carciofi sono verdure di stagione ricche di fibre, vitamine e Sali minerali.

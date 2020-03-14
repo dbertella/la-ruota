@@ -85,3 +85,23 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    type MarkdownRemark implements Node {
+      frontmatter: Frontmatter
+    }
+    type Ingredient {
+      item: String!
+    }
+    type Recipe {
+      heading: String!
+      ingredients: [Ingredient]!
+    }
+    type Frontmatter {
+      recipe: Recipe
+    }
+  `
+  createTypes(typeDefs)
+}

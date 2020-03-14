@@ -1,11 +1,29 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
-import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
-import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
-import FullWidthImg from '../components/FullWidthImg'
+import React from "react";
+import PropTypes from "prop-types";
+import { kebabCase } from "lodash";
+import Helmet from "react-helmet";
+import { graphql, Link } from "gatsby";
+import Layout from "../components/Layout";
+import Content, { HTMLContent } from "../components/Content";
+import FullWidthImg from "../components/FullWidthImg";
+import showdown from "showdown";
+import styled from "styled-components";
+
+const RecipeBox = styled.div`
+  margin: 1.5rem 0 3rem;
+  padding: 2rem;
+  border: 1px solid #4a3400;
+  display: inline-block;
+`;
+
+const RecipeList = styled.ul`
+  @media (min-width: 768px) {
+    column-count: 2;
+    column-gap: 2rem;
+  }
+`;
+
+const converter = new showdown.Converter();
 
 export const BlogPostTemplate = ({
   content,
@@ -13,19 +31,35 @@ export const BlogPostTemplate = ({
   tags,
   title,
   image,
+  recipe,
   helmet
 }) => {
-  const PostContent = contentComponent || Content
+  const PostContent = contentComponent || Content;
 
   return (
     <>
       <FullWidthImg image={image} />
       <section className="section">
-        {helmet || ''}
+        {helmet || ""}
         <div className="container content">
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
+              {recipe ? (
+                <RecipeBox>
+                  <strong>{recipe.heading}</strong>
+                  <RecipeList>
+                    {recipe.ingredients.map(i => (
+                      <li
+                        key={i.item}
+                        dangerouslySetInnerHTML={{
+                          __html: converter.makeHtml(i.item)
+                        }}
+                      ></li>
+                    ))}
+                  </RecipeList>
+                </RecipeBox>
+              ) : null}
               <PostContent content={content} />
               {tags && tags.length ? (
                 <div style={{ marginTop: `4rem` }}>
@@ -44,8 +78,8 @@ export const BlogPostTemplate = ({
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
 BlogPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
@@ -54,10 +88,10 @@ BlogPostTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   helmet: PropTypes.object
-}
+};
 
 const BlogPost = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post } = data;
 
   return (
     <Layout>
@@ -69,23 +103,27 @@ const BlogPost = ({ data }) => {
         helmet={
           <Helmet titleTemplate="%s | Novità">
             <title>{`${post.frontmatter.title}`}</title>
-            <meta name="description" content={`${post.frontmatter.description}`} />
+            <meta
+              name="description"
+              content={`${post.frontmatter.description}`}
+            />
           </Helmet>
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        recipe={post.frontmatter.recipe}
       />
     </Layout>
-  )
-}
+  );
+};
 
 BlogPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object
   })
-}
+};
 
-export default BlogPost
+export default BlogPost;
 
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {
@@ -104,7 +142,13 @@ export const pageQuery = graphql`
           }
         }
         tags
+        recipe {
+          heading
+          ingredients {
+            item
+          }
+        }
       }
     }
   }
-`
+`;

@@ -12,6 +12,12 @@ const Copiright = styled.div`
 const WhiteText = styled.div`
   color: ${WHITE_COLOR};
 `
+const WhiteLink = styled.a`
+  color: #fff;
+  &:hover {
+    color: ${WHITE_COLOR};
+  }
+`
 const InstagramWhite = styled(Instagram)`
   fill: ${WHITE_COLOR};
 `
@@ -57,9 +63,9 @@ function Footer() {
                         <br />
                         Email: <span itemProp="email">info@laruotaimperia.com</span>
                         <br />
-                        <a itemProp="url" href="http://www.laruotaimperia.com">
+                        <WhiteLink itemProp="url" href="http://www.laruotaimperia.com">
                           www.laruotaimperia.com
-                        </a>
+                        </WhiteLink>
                       </p>
                     </div>
                   </div>

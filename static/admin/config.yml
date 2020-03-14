@@ -26,13 +26,19 @@ collections:
       - { label: Image, name: image, widget: image }
       - { label: "Body", name: "body", widget: "markdown" }
       - {
-          label: Testimonials,
-          name: testimonials,
-          widget: list,
+          label: Recipe,
+          name: recipe,
+          widget: object,
           fields:
             [
-              { label: Quote, name: quote, widget: string },
-              { label: Author, name: author, widget: string },
+              { label: Heading, name: heading, widget: string },
+              {
+                label: Ingredients,
+                name: ingredients,
+                widget: list,
+                fields:
+                  [{ label: Ingredient, name: item, widget: markdown }],
+              },
             ],
         }
       - { label: "Tags", name: "tags", widget: "list" }

@@ -36,6 +36,7 @@
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
     "react-slick": "^0.25.2",
+    "showdown": "^1.9.1",
     "styled-components": "^5.0.1",
     "uuid": "^3.2.1"
   },
