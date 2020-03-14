@@ -7,7 +7,7 @@ image: /img/acciughe_c.jpg
 tags:
   - ricette
 ---
-Kcal :   442  Per porzione*
+
 
 Ingredienti per 3 persone:
 
@@ -63,6 +63,17 @@ Durante la cottura tagliare i cuori di bue a spicchi e condirli con Olio extrave
 
 Per l’impiattamento appoggiare l’acciuga sul pomodoro e accompagnarlo se desiderate con misticanza
 
+**Consigli della Nutrizionista , Dott.ssa Pierangela Motzo**
 
 
-**\*calcolo calorico effettuato dalla Dott.ssa , biologo nutrizionista.**
+
+La ricetta apporta circa 440 kcal per porzione. 
+
+Se affianchiamo questo piatto a 100 grammi di pane, otteniamo un ottimo piatto
+bilanciato!
+
+E non dimentichiamo che :
+
+* Le Acciughe sono una buona fonte di proteine e acidi grassi omega 3
+* Olio extravergine di oliva delle nostre zone e pinoli sono ricchi di grassi monoinsaturi
+* I Carciofi sono verdure di stagione ricche di fibre, vitamine e Sali minerali.
