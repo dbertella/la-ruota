@@ -7,8 +7,6 @@ image: /img/acciughe_c.jpg
 tags:
   - ricette
 ---
-
-
 Ingredienti per 3 persone:
 
 **Acciughe:**N 36
@@ -29,7 +27,7 @@ Cipolla di Tropea tritata: N 1
 
 Pomodori cuore di bue: N 3
 
-Olio extravergine : g 100
+Olio extravergine : g 30 circa
 
 **Procedimento:**
 
@@ -65,15 +63,12 @@ Per l’impiattamento appoggiare l’acciuga sul pomodoro e accompagnarlo se des
 
 **Consigli della Nutrizionista , Dott.ssa Pierangela Motzo**
 
-
-
 La ricetta apporta circa 440 kcal per porzione. 
 
-Se affianchiamo questo piatto a 100 grammi di pane, otteniamo un ottimo piatto
-bilanciato!
+Se affianchiamo questo piatto a 100 grammi di pane, otteniamo un ottimo piatto bilanciato!
 
 E non dimentichiamo che :
 
-* Le Acciughe sono una buona fonte di proteine e acidi grassi omega 3
-* Olio extravergine di oliva delle nostre zone e pinoli sono ricchi di grassi monoinsaturi
+* Le Acciughe sono una buona fonte di proteine e acidi grassi Omega 3
+* Olio extravergine di oliva delle nostre zone e pinoli sono ricchi di grassi "buoni"(Monoinsaturi nell'olio e Omega6 nei pinoli) e Vitamina E.
 * I Carciofi sono verdure di stagione ricche di fibre, vitamine e Sali minerali.
