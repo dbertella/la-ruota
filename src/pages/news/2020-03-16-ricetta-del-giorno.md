@@ -44,4 +44,18 @@ Terminare la cottura della pasta saltandola con il sugo di gallinella, aggiungen
 
 Prezzemolo riccio
 
+**Consigli della Nutrizionista , Dott.ssa Pierangela Motzo**
+
+<!--StartFragment-->
+
+Questa ricetta può essere un gustoso piatto unico per un pranzo diverso dal solito. La porzione apporta 706 kcal.
+
+La gallinella, pesce tipico del mar Mediterraneo, ha un buon tenore in proteine e pochi grassi, è adatta infatti a qualsiasi regime alimentare, anche dietetico.
+
+E', inoltre, un pesce ricco di sali minerali come potassio, calcio, fosforo, magnesio e vitamine A e D:elementi essenziali per la salute cardiovascolare e il benessere delle ossa.
+
+<!--EndFragment-->
+
+
+
 <!--EndFragment-->
