@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 import "./all.sass";
 import SEO from "./seo";
 
-const TemplateWrapper = ({ children }) => (
+const TemplateWrapper = ({ children, title, image, description }) => (
   <StaticQuery
     query={graphql`
       query HeadingQuery {
@@ -19,7 +19,11 @@ const TemplateWrapper = ({ children }) => (
     `}
     render={data => (
       <div>
-        <SEO title={data.site.siteMetadata.title} />
+        <SEO
+          title={title || data.site.siteMetadata.title}
+          image={image}
+          description={description}
+        />
         <Navbar />
         <div>{children}</div>
         <Footer />

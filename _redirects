@@ -1,2 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-http://la-ruota.netlify.com/* http://www.laruotaimperia.it/:splat 301!

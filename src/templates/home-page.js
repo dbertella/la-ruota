@@ -184,7 +184,7 @@ HomePageTemplate.propTypes = {
 const HomePage = ({ data }) => {
   const { markdownRemark: post, allInstaNode } = data;
   return (
-    <Layout>
+    <Layout title={post.frontmatter.title}>
       <HomePageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
