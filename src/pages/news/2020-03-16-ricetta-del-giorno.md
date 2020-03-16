@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Linguine con sugo di Gallinella e porri
 date: 2020-03-16T13:30:23.018Z
 description: Ricetta del giorno
-image: /img/gallinella.jpg
+image: /img/whatsapp-image-2018-04-03-at-11.22.57-1024x550.jpeg
 recipe:
   heading: Ingredienti per 3 persone
   ingredients:
