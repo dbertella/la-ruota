@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Ricetta del giorno
+title: Linguine con sugo di Gallinella e porri
 date: 2020-03-16T13:30:23.018Z
 description: Linguine con sugo di Gallinella e porri
 image: /img/240_f_36463091_ajrtnzhrvbudqkvlwaubjz135ryfbs5c-2-.jpg
