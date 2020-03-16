@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Linguine con sugo di Gallinella e porri
 date: 2020-03-16T13:30:23.018Z
-description: Linguine con sugo di Gallinella e porri
+description: Ricetta del giorno
 image: /img/240_f_36463091_ajrtnzhrvbudqkvlwaubjz135ryfbs5c-2-.jpg
 recipe:
   heading: Ingredienti per 3 persone
@@ -20,9 +20,7 @@ recipe:
 tags:
   - Ricette
 ---
-
-
-Procedimento:
+**Procedimento:**
 
 Sventrare e sfilettare la gallinella avendo cura di eliminare tutte le lische
 
@@ -36,12 +34,14 @@ Una volta ridotto aggiungere i pomodori precedentemente pelati e spezzettati, ag
 
 Cuocere per circa 15 minuti
 
-Cottura:
+**Cottura:**
 
-Bollire la pasta
+Bollire la pasta lasciandola leggermente al dente
 
-Saltarla con il sugo aggiungendo qualche foglia di maggiorana , guarnire con prezzemolo riccio.
+Terminare la cottura della pasta saltandola con il sugo di gallinella, aggiungendo qualche foglia di maggiorana.
 
+**Guarnizione :** 
 
+Prezzemolo riccio
 
 <!--EndFragment-->
