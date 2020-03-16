@@ -1,12 +1,17 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import FullWidthImg from '../components/FullWidthImg'
-import Content, { HTMLContent } from '../components/Content'
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import Layout from "../components/Layout";
+import FullWidthImg from "../components/FullWidthImg";
+import Content, { HTMLContent } from "../components/Content";
 
-export const AboutPageTemplate = ({ title, content, image, contentComponent }) => {
-  const PageContent = contentComponent || Content
+export const AboutPageTemplate = ({
+  title,
+  content,
+  image,
+  contentComponent
+}) => {
+  const PageContent = contentComponent || Content;
   return (
     <>
       <FullWidthImg image={image} />
@@ -21,21 +26,21 @@ export const AboutPageTemplate = ({ title, content, image, contentComponent }) =
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
 AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   contentComponent: PropTypes.func
-}
+};
 
 const AboutPage = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post } = data;
 
   return (
-    <Layout title={post.frontmatter.title} image={post.frontmatter.image}>
+    <Layout title={post.frontmatter.title}>
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -43,14 +48,14 @@ const AboutPage = ({ data }) => {
         content={post.html}
       />
     </Layout>
-  )
-}
+  );
+};
 
 AboutPage.propTypes = {
   data: PropTypes.object.isRequired
-}
+};
 
-export default AboutPage
+export default AboutPage;
 
 export const aboutPageQuery = graphql`
   query AboutPage($id: String!) {
@@ -68,4 +73,4 @@ export const aboutPageQuery = graphql`
       }
     }
   }
-`
+`;

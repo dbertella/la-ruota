@@ -95,7 +95,7 @@ const BlogPost = ({ data }) => {
   return (
     <Layout
       title={post.frontmatter.title}
-      image={post.frontmatter.image}
+      image={post.frontmatter.image?.childImageSharp?.fluid?.src}
       description={post.frontmatter.description}
     >
       <BlogPostTemplate

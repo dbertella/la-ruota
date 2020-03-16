@@ -1,13 +1,18 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
-import Content, { HTMLContent } from '../components/Content'
-import ContactForm from '../components/ContactForm'
-import FullWidthImg from '../components/FullWidthImg'
-import Layout from '../components/Layout'
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import Content, { HTMLContent } from "../components/Content";
+import ContactForm from "../components/ContactForm";
+import FullWidthImg from "../components/FullWidthImg";
+import Layout from "../components/Layout";
 
-export const ContactPageTemplate = ({ title, image, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
+export const ContactPageTemplate = ({
+  title,
+  image,
+  content,
+  contentComponent
+}) => {
+  const PageContent = contentComponent || Content;
 
   return (
     <>
@@ -24,21 +29,21 @@ export const ContactPageTemplate = ({ title, image, content, contentComponent })
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
 ContactPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   contentComponent: PropTypes.func
-}
+};
 
 const ContactPage = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post } = data;
 
   return (
-    <Layout title={post.frontmatter.title} image={post.frontmatter.image}>
+    <Layout title={post.frontmatter.title}>
       <ContactPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -46,14 +51,14 @@ const ContactPage = ({ data }) => {
         content={post.html}
       />
     </Layout>
-  )
-}
+  );
+};
 
 ContactPage.propTypes = {
   data: PropTypes.object.isRequired
-}
+};
 
-export default ContactPage
+export default ContactPage;
 
 export const contactPageQuery = graphql`
   query ContactPage($id: String!) {
@@ -71,4 +76,4 @@ export const contactPageQuery = graphql`
       }
     }
   }
-`
+`;
