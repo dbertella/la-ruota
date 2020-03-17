@@ -109,8 +109,7 @@ ProductPageTemplate.propTypes = {
 };
 
 const ProductPage = ({ data }) => {
-  const { frontmatter, html } = data.markdownRemark;
-  console.log(html);
+  const { frontmatter } = data.markdownRemark;
   return (
     <Layout title={frontmatter.title}>
       <ProductPageTemplate

@@ -28,8 +28,8 @@ function SEO({ description, lang, meta, title, image }) {
   );
 
   const metaDescription = description || site.siteMetadata.description;
-  const metaImage = `${site.siteMetadata.url}${image || site.siteMetadata.image}`;
-  console.log(image, site.siteMetadata.image)
+  const metaImage = `${site.siteMetadata.url}${image ||
+    site.siteMetadata.image}`;
   return (
     <Helmet
       htmlAttributes={{
@@ -52,7 +52,7 @@ function SEO({ description, lang, meta, title, image }) {
         },
         {
           property: `og:url`,
-          content: site.siteMetadata.url
+          content: site.siteMetadata.url + window.location.pathname
         },
         {
           property: `og:type`,
