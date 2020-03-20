@@ -13,7 +13,9 @@ Da oggi puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa t
 
 #### **[Clicca Qui per scaricare il Nostro MENU](/img/la_ruota_takeaway.pdf)**
 
-**[Scopri la nostra carta dei VINI --------> Clicca qui](https://www.laruotaimperia.it/img/carta_Vini2019.pdf)**
+**[Libro Allergeni](https://laruotaimperia.com/img/Allergeni_ruota.pdf)**
+
+[](https://laruotaimperia.com/img/Allergeni_ruota.pdf)**[Scopri la nostra carta dei VINI --------> Clicca qui](https://www.laruotaimperia.it/img/carta_Vini2019.pdf)**
 
 ![Take away logo](/img/la-ruota-take-away.png)
 
