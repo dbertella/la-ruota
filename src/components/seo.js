@@ -8,6 +8,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
+import { useLocation } from "@reach/router";
 import { useStaticQuery, graphql } from "gatsby";
 
 function SEO({ description, lang, meta, title, image }) {
@@ -30,6 +31,10 @@ function SEO({ description, lang, meta, title, image }) {
   const metaDescription = description || site.siteMetadata.description;
   const metaImage = `${site.siteMetadata.url}${image ||
     site.siteMetadata.image}`;
+
+  const location = useLocation();
+  console.log(location)
+
   return (
     <Helmet
       htmlAttributes={{
@@ -52,7 +57,7 @@ function SEO({ description, lang, meta, title, image }) {
         },
         {
           property: `og:url`,
-          content: site.siteMetadata.url + window.location.pathname
+          content: site.siteMetadata.url + location.pathname
         },
         {
           property: `og:type`,
