@@ -6829,7 +6829,7 @@ gatsby-transformer-sharp@^2.1.9:
     semver "^5.7.1"
     sharp "^0.25.1"
 
-gatsby@^2.13.31:
+gatsby@^2.20.2:
   version "2.20.2"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.20.2.tgz#6ac71097f27e732d7b38ae7dba2e1088d62ba7a5"
   integrity sha512-Ye2E7Was/blR7uMg/3UiwN9jT/gRFD3LMXQoRuw7ut+//Lmkf3HTrEAPPjItn9YlZ7Lgqhpe1o4nz+qxXOxKKg==
