@@ -5,8 +5,6 @@ image: /img/la-foce-notte.png
 ---
 Non hai voglia di cucinare?
 
-
-
 Non puoi uscire per cena?
 
 Hai voglia di un vino della nostra carta? 
@@ -24,10 +22,12 @@ Da oggi puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa t
 ## [](hattps://la_ruota.netlify.com/img/takeawayLa_ruota2.pdf)Metodi di prenotazione
 
 * Attraverso il [form del nostro sito](/contatti) o per e-mail a [](mailto:info@laruotaimperia.com)laruota.im@gmail.com, in questo caso l’ordine verrà confermato da noi telefonicamente.
-* Chiamandoci al numero **018361206** con le seguenti modalità:
+* Chiamandoci al numero **018361206**
 * Mandandoci un messaggio WhatsApp al numero del ristorante o cliccando su questo link---> [clicca qui](https://wa.me/39018361206)
 
-entro le ore 14:00 del giorno di consegna
+   Con le seguenti modalità:
+
+Indicandoci quello che desideri e il tuo indirizzo entro le ore 14:00 del giorno di consegna
 
 ## Orari di consegna a domicilio gratuita
 
