@@ -31,7 +31,7 @@ export const BlogPostTemplate = ({
   title,
   image,
   recipe,
-  helmet
+  helmet,
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -44,15 +44,15 @@ export const BlogPostTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
-              {recipe ? (
+              {recipe?.heading ? (
                 <RecipeBox>
                   <strong>{recipe.heading}</strong>
                   <RecipeList>
-                    {recipe.ingredients.map(i => (
+                    {recipe.ingredients.map((i) => (
                       <li
                         key={i.item}
                         dangerouslySetInnerHTML={{
-                          __html: converter.makeHtml(i.item)
+                          __html: converter.makeHtml(i.item),
                         }}
                       ></li>
                     ))}
@@ -64,7 +64,7 @@ export const BlogPostTemplate = ({
                 <div style={{ marginTop: `4rem` }}>
                   <h4>Tags</h4>
                   <ul className="taglist">
-                    {tags.map(tag => (
+                    {tags.map((tag) => (
                       <li key={tag + `tag`}>
                         <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
                       </li>
@@ -86,7 +86,7 @@ BlogPostTemplate.propTypes = {
   description: PropTypes.string,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  helmet: PropTypes.object
+  helmet: PropTypes.object,
 };
 
 const BlogPost = ({ data }) => {
@@ -113,8 +113,8 @@ const BlogPost = ({ data }) => {
 
 BlogPost.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object
-  })
+    markdownRemark: PropTypes.object,
+  }),
 };
 
 export default BlogPost;
