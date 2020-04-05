@@ -5,7 +5,7 @@ date: 2020-04-05T10:24:07.676Z
 description: 'La Ruota a Domicilio: Pranzo di Pasqua  2020'
 image: /img/pranzo-di-pasqua-2020-1-.png
 recipe:
-  heading: Menu
+  heading: Menu Degustazione
   ingredients: []
 tags:
   - Menu degustazione
