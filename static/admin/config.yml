@@ -29,15 +29,20 @@ collections:
           label: Recipe,
           name: recipe,
           widget: object,
+          required: false,
           fields:
             [
-              { label: Heading, name: heading, widget: string },
+              {
+                label: Heading,
+                name: heading,
+                widget: string,
+                required: false,
+              },
               {
                 label: Ingredients,
                 name: ingredients,
                 widget: list,
-                fields:
-                  [{ label: Ingredient, name: item, widget: markdown }],
+                fields: [{ label: Ingredient, name: item, widget: markdown }],
               },
             ],
         }
