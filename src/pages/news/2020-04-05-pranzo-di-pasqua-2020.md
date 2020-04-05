@@ -10,19 +10,19 @@ recipe:
 tags:
   - Menu degustazione
 ---
-\      *  Menu*
 
- *\    Il Nostro CapponMagro*
 
- *\    Branda al finocchietto con bottarga di muggine*
+ * Il Nostro CapponMagro*
 
- *\    Lasagnatte al sugo di gallinella e asparagi*
+ * Branda al finocchietto con bottarga di muggine*
 
- *\    Bianco di Branzino al forno con patate fondenti*
+ *Lasagnatte al sugo di gallinella e asparagi*
 
- *\    Oppure*
+ *Bianco di Branzino al forno con patate fondenti*
 
- *\    Agnello in umido con carciofi*
+ *Oppure*
+
+ *Agnello in umido con carciofi*
 
 *Il prezzo del menu è di euro 30,00 compreso di consegna gratuita!*
 
