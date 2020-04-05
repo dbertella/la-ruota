@@ -14,17 +14,25 @@ tags:
 
 
 
+
+
 *Il Nostro Cappon Magro*
 
 *Branda al finocchietto con bottarga di Muggine*
 
- *Lasagnatte al sugo di gallinella e asparagi*
+*\**
+
+ *Lasagnette al sugo di gallinella e asparagi*
+
+*\**
 
  *Bianco di Branzino al forno con patate fondenti*
 
- *Oppure*
+*Oppure*
 
  *Agnello in umido con carciofi*
+
+*\**
 
 *Il prezzo del menu è di euro 30,00 compreso di consegna gratuita!*
 
