@@ -12,9 +12,11 @@ tags:
 ---
 
 
- * Il Nostro CapponMagro*
 
- * Branda al finocchietto con bottarga di muggine*
+
+*Il Nostro Cappon Magro*
+
+*Branda al finocchietto con bottarga di Muggine*
 
  *Lasagnatte al sugo di gallinella e asparagi*
 
@@ -25,8 +27,6 @@ tags:
  *Agnello in umido con carciofi*
 
 *Il prezzo del menu è di euro 30,00 compreso di consegna gratuita!*
-
-
 
 [Se gradisci anche una buona bottiglia di Vino, CLICCA QUI per scegliere la tua preferita!](https://laruotaimperia.com/img/carta_Vini2019.pdf)
 
