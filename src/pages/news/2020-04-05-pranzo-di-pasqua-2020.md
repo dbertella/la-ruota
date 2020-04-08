@@ -10,6 +10,18 @@ recipe:
 tags:
   - Menu degustazione
 ---
+***Siamo Spiacenti ma siamo "AL Completo", non accettiamo nuovi ordini.***
+
+**[Se Volete prenotare per un altro giorno segui le istruzioni cliccando qui...](laruotaimperia.com/takeaway)**
+
+**Buona Pasqua a tutti!**
+
+
+
+**\*\*\*\*\*\***
+
+
+
 *Il Nostro Cappon Magro*
 
 *Branda al finocchietto con bottarga di Muggine*
