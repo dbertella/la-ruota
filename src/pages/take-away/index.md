@@ -5,7 +5,7 @@ image: /img/la-foce-notte.png
 ---
 Non hai voglia di cucinare?
 
-Non puoi uscire per cena?
+Non puoi uscire per pranzo o cena?
 
 Hai voglia di un vino della nostra carta? 
 
@@ -27,13 +27,19 @@ Da oggi puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa t
 
    Con le seguenti modalità:
 
-Indicandoci quello che desideri e il tuo indirizzo entro le ore 14:00 del giorno di consegna
+Indicandoci quello che desideri e il tuo indirizzo entro le ore 14:00 del giorno di consegna per la cena oppure entro le 16 del giorno precedente per il Pranzo.
 
 ## Orari di consegna a domicilio gratuita
 
+**Lunch** : dalle 11:00 alle 12:30 
+
 **Dinner**: dalle 18:00 alle 20:00
 
-Metodo di pagamento: Contanti
+Metodo di pagamento:
+
+* Contanti
+* Satispay
+* Bonifico
 
 Le pietanze del menu da asporto saranno servite refrigerate in contenitori di alluminio o materiale biodegradabile, allegheremo una scheda contenente le istruzioni per il riscaldamento e la presentazione del piatto.
 
