@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Speciale weekend
 date: 2020-04-21T13:58:21.588Z
 description: Menu degustazione weekend
-image: /img/copy-of-copy-of-yellow-navy-orange-photo-food-instagram-post-1-.png
+image: /img/copy-of-copy-of-copy-of-yellow-navy-orange-photo-food-instagram-post.png
 tags:
   - Menu degustazione
 ---
