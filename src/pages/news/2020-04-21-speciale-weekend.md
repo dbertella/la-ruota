@@ -7,8 +7,6 @@ image: /img/versione-3.png
 tags:
   - Menu degustazione
 ---
-# Speciale Weekend
-
 ## *25 e 26 Aprile*
 
 ### Menu degustazione
@@ -44,9 +42,9 @@ Indicandoci quello che desideri e il tuo indirizzo entro le ore 14:00 del giorno
 
 ## Orari di consegna a domicilio gratuita
 
-**Lunch** : dalle 11:00 alle 12:30 
+**Lunch** : entro le 12:30 
 
-**Dinner**: dalle 18:00 alle 20:00
+**Dinner**: entro le 20:00
 
 Metodo di pagamento:
 
