@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Speciale weekend
 date: 2020-04-21T13:58:21.588Z
 description: Menu degustazione weekend
-image: /img/versione-3.png
+image: /img/26863894_1603219453100298_5786333030985498624_n.jpg
 tags:
   - Menu degustazione
 ---
