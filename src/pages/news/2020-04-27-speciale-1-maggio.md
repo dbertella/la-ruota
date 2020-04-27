@@ -8,13 +8,15 @@ image: >-
 tags:
   - Menu Degustazione
 ---
-### 1-2-3 Maggio 
+### 1-2-3 Maggio
 
-#### Potrete scegliere tra le proposte alla carta del fine settimana 
+#### Potrete scegliere tra le proposte alla carta del fine settimana
 
-## Clicca qui per il menu alla carta
+## [Clicca qui per il menu alla carta](https://laruotaimperia.com/img/la_ruota_primomaggio.pdf)
 
-#### Oppure scegliere questo Menu degustazione :
+#### [](https://laruotaimperia.com/img/la_ruota_primomaggio.pdf)Oppure scegliere il 
+
+#### Menu degustazione :
 
 **\*\*\*\*\*\***
 
