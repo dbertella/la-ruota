@@ -3,8 +3,7 @@ templateKey: blog-post
 title: Speciale 1 Maggio
 date: 2020-04-27T16:11:19.315Z
 description: Speciale Weekend del Primo Maggio
-image: >-
-  /img/copy-of-copy-of-copy-of-copy-of-copy-of-yellow-navy-orange-photo-food-instagram-post.png
+image: /img/primomaggio.png
 tags:
   - Menu Degustazione
 ---
