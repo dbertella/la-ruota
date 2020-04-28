@@ -12,9 +12,9 @@ tags:
 
 #### Potrete scegliere tra le proposte alla carta del fine settimana
 
-## [Clicca qui per il menu alla carta](https://laruotaimperia.com/img/la_ruota_primomaggio.pdf)
+# [Clicca qui per il menu alla carta](https://laruotaimperia.com/img/la_ruota_primomaggio.pdf)
 
-#### [](https://laruotaimperia.com/img/la_ruota_primomaggio.pdf)Oppure scegliere il 
+#### [](https://laruotaimperia.com/img/la_ruota_primomaggio.pdf)Oppure scegliere il
 
 #### Menu degustazione :
 
