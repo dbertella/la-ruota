@@ -3,17 +3,20 @@ templateKey: about-page
 title: Take Away
 image: /img/la-foce-notte.png
 ---
-Non hai voglia di cucinare?
+La Ruota nella "Fase2"
 
-Non puoi uscire per pranzo o cena?
+Puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa tua!
 
-Hai voglia di un vino della nostra carta? 
+Da oggi avete queste opzioni:
 
-Da oggi puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa tua!
+1. Ritiro presso il Ristorante
+2. Consegna a domicilio come nella "Fase1"
 
 #### **[Clicca Qui per scaricare il Nostro MENU](/img/la_ruota_takeaway.pdf)**
 
 **[Libro Allergeni](https://laruotaimperia.com/img/Allergeni_ruota.pdf)**
+
+**Avrai anche la possibilità di prenotare il tuo vino:**
 
 [](https://laruotaimperia.com/img/Allergeni_ruota.pdf)**[Scopri la nostra carta dei VINI --------> Clicca qui](https://www.laruotaimperia.it/img/carta_Vini2019.pdf)**
 
@@ -27,13 +30,23 @@ Da oggi puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa t
 
    Con le seguenti modalità:
 
-Indicandoci quello che desideri e il tuo indirizzo entro le ore 14:00 del giorno di consegna per la cena oppure entro le 16 del giorno precedente per il Pranzo.
+Indicandoci quello che desideri entro le ore 14:00 del giorno di consegna per la Cena oppure entro le 16:00 del giorno precedente per il Pranzo.
 
-## Orari di consegna a domicilio gratuita
+#### **[Clicca Qui per scaricare il Nostro MENU](/img/la_ruota_takeaway.pdf)**
+
+
+
+## Orari di consegna a domicilio 
 
 **Lunch** : dalle 11:00 alle 12:30 
 
 **Dinner**: dalle 18:00 alle 20:00
+
+## Orari di ritiro presso il Ristorante previa prenotazione
+
+**Lunch** : dalle 12:00 alle 13:30
+
+**Dinner**: dalle 19:00 alle 20:00
 
 Metodo di pagamento:
 
