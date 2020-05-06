@@ -51,11 +51,11 @@ Metodo di pagamento:
 * Bonifico
 
   #### Come vengono servite?
-* Le pietanze del menu da asporto saranno servite refrigerate 
+* Le pietanze del menu a domicilio saranno servite refrigerate 
 * Le pietanze del menu da asporto ritirate al ristorante saranno servite refrigerate o calde a seconda della richiesta 
 
-  In entrambi i casi in contenitori di alluminio o materiale biodegradabile, allegheremo una scheda contenente le istruzioni per il riscaldamento e la presentazione del piatto.
+  Il tutto verrà confezionato in contenitori di alluminio o materiale biodegradabile, allegheremo una scheda contenente le istruzioni per il riscaldamento e la presentazione del piatto.
 
-Potete scegliere di avere la pietanza completa o quando possibile gli ingredienti separai pronti per essere impiattati, da assemblare a casa come dei veri chef!
+Potete scegliere di avere la pietanza completa o, quando possibile, gli ingredienti separati pronti per essere impiattati da assemblare a casa come dei veri chef!
 
 #### **[Clicca Qui per scaricare il Nostro MENU](/img/la_ruota_takeaway.pdf)**
