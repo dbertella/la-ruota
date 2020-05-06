@@ -52,7 +52,7 @@ Metodo di pagamento:
 
   #### Come vengono servite?
 * Le pietanze del menu a domicilio saranno servite refrigerate 
-* Le pietanze del menu da asporto ritirate al ristorante saranno servite refrigerate o calde a seconda della richiesta 
+* Le pietanze del menu da asporto ritirate al ristorante invece saranno servite refrigerate o calde a seconda della richiesta 
 
   Il tutto verrà confezionato in contenitori di alluminio o materiale biodegradabile, allegheremo una scheda contenente le istruzioni per il riscaldamento e la presentazione del piatto.
 
