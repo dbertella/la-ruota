@@ -12,14 +12,6 @@ Da oggi avete queste opzioni:
 1. Ritiro presso il Ristorante
 2. Consegna a domicilio 
 
-#### **[Clicca Qui per scaricare il Nostro MENU](/img/la_ruota_takeaway.pdf)**
-
-**[Libro Allergeni](https://laruotaimperia.com/img/Allergeni_ruota.pdf)**
-
-**Avrai anche la possibilità di prenotare il tuo vino:**
-
-[](https://laruotaimperia.com/img/Allergeni_ruota.pdf)**[Scopri la nostra carta dei VINI --------> Clicca qui](https://www.laruotaimperia.it/img/carta_Vini2019.pdf)**
-
 ![Take away logo](/img/la-ruota-take-away.png)
 
 #### **[Clicca Qui per scaricare il Nostro MENU](/img/la_ruota_takeaway.pdf)**
