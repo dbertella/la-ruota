@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 title: Take Away
-image: /img/la-ruota-take-away.png
+image: /img/untitled-design-1-.png
 ---
 La Ruota nella "Fase2"
 
