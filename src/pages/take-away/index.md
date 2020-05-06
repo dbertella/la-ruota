@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 title: Take Away
-image: /img/add-a-subheading.png
+image: /img/add-a-subheading-2-.png
 ---
 La Ruota nella "Fase2"
 
