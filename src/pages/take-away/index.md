@@ -10,7 +10,7 @@ Puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa tua!
 Da oggi avete queste opzioni:
 
 1. Ritiro presso il Ristorante
-2. Consegna a domicilio come nella "Fase1"
+2. Consegna a domicilio 
 
 #### **[Clicca Qui per scaricare il Nostro MENU](/img/la_ruota_takeaway.pdf)**
 
@@ -28,7 +28,7 @@ Da oggi avete queste opzioni:
 * Chiamandoci al numero **018361206**
 * Mandandoci un messaggio WhatsApp al numero del ristorante o cliccando su questo link---> [clicca qui](https://wa.me/39018361206)
 
-   Con le seguenti modalità:
+  ####  Con le seguenti modalità:
 
 Indicandoci quello che desideri entro le ore 14:00 del giorno di consegna per la Cena oppure entro le 16:00 del giorno precedente per il Pranzo.
 
