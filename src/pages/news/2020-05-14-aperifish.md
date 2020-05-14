@@ -8,7 +8,9 @@ image: >-
 recipe:
   heading: Special Aperifish
   ingredients:
-    - item: '#### Tris di tapas per 2 dello Chef + Bottiglia di vermentino sardo €25'
+    - item: >-
+        #### Tris di tapas dello Chef per  2  + Bottiglia di vermentino sardo
+        €25
 tags:
   - aperitivo
 ---
@@ -42,7 +44,7 @@ Acciughe fritte e salsa tartara (100g).....€6
 
 <!--StartFragment-->
 
-#### Tris di tapas per 2 dello Chef + Bottiglia di vermentino sardo €25
+#### Tris di tapas dello Chef per  2  + Bottiglia di vermentino sardo €25
 
 <!--EndFragment-->
 
