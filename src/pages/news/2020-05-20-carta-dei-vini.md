@@ -3,12 +3,10 @@ templateKey: blog-post
 title: Carta dei Vini 2020
 date: 2020-05-20T08:39:14.899Z
 description: Carta dei Vini 2020
-image: /img/carta-dei-vini.png
+image: /img/carta-dei-vini-2-.png
 tags:
   - carta vini
 ---
-![](/img/bicchieri_vino.jpg)
-
 ### Cliccate sulle regioni per scegliere
 
 # Vini Bianchi
@@ -31,3 +29,7 @@ tags:
 # [Passiti e da Dessert](https://laruotaimperia.com/img/Da_dessert.pdf)
 
 # [](https://laruotaimperia.com/img/Da_dessert.pdf)[Bibite Birra e Caffetteria](https://laruotaimperia.com/img/birre_acqua_caffetteria.pdf)
+
+
+
+![](/img/carta-dei-vini-1-.png)
