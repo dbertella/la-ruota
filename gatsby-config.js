@@ -5,7 +5,7 @@ module.exports = {
       "Ristorante La Ruota a Imperia, specialità pesce. Una cucina basata sul pesce fresco, i prodotti del territorio e piatti sempre preparati al momento.",
     author: `@LaRuotaImperia`,
     url: "https://laruotaimperia.com",
-    image: `/img/la-ruota-take-away.png`
+    image: `/img/la-ruota-take-away.png`,
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -15,8 +15,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [`Zilla Slab`],
-        display: "swap"
-      }
+        display: "swap",
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -32,7 +32,7 @@ module.exports = {
         // Avoids sending pageview hits from custom paths
         // exclude: ["/preview/**", "/do-not-track/me/too/"],
         // Delays sending pageview hits on route update (in milliseconds)
-        pageTransitionDelay: 0
+        pageTransitionDelay: 0,
         // Enables Google Optimize using your container Id
         // optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
         // Enables Google Optimize Experiment ID
@@ -43,35 +43,35 @@ module.exports = {
         // sampleRate: 5,
         // siteSpeedSampleRate: 10,
         // cookieDomain: "example.com",
-      }
+      },
     },
     {
       resolve: `gatsby-source-instagram`,
       options: {
-        username: `laruotaim`
-      }
+        username: "3643692171", // `laruotaim`
+      },
     },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/static/img`,
-        name: "uploads"
-      }
+        name: "uploads",
+      },
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/pages`,
-        name: "pages"
-      }
+        name: "pages",
+      },
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/img`,
-        name: "images"
-      }
+        name: "images",
+      },
     },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
@@ -82,8 +82,8 @@ module.exports = {
           {
             resolve: "gatsby-remark-relative-images",
             options: {
-              name: "uploads"
-            }
+              name: "uploads",
+            },
           },
           {
             resolve: "gatsby-remark-images",
@@ -93,23 +93,23 @@ module.exports = {
               // base for generating different widths of each image.
               maxWidth: 2048,
               linkImagesToOriginal: false,
-              backgroundColor: `transparent`
-            }
+              backgroundColor: `transparent`,
+            },
           },
           {
             resolve: "gatsby-remark-copy-linked-files",
             options: {
-              destinationDir: "static"
-            }
-          }
-        ]
-      }
+              destinationDir: "static",
+            },
+          },
+        ],
+      },
     },
     {
       resolve: "gatsby-plugin-netlify-cms",
       options: {
-        modulePath: `${__dirname}/src/cms/cms.js`
-      }
+        modulePath: `${__dirname}/src/cms/cms.js`,
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -120,16 +120,16 @@ module.exports = {
         background_color: `#333`,
         theme_color: `#333`,
         display: `minimal-ui`,
-        icon: `src/img/favicon.png` // This path is relative to the root of the site.
-      }
+        icon: `src/img/favicon.png`, // This path is relative to the root of the site.
+      },
     },
     {
       resolve: "gatsby-plugin-purgecss", // purges all unused/unreferenced css rules
       options: {
         develop: true, // Activates purging in npm run develop
-        purgeOnly: ["/all.sass"] // applies purging only on the bulma css file
-      }
+        purgeOnly: ["/all.sass"], // applies purging only on the bulma css file
+      },
     }, // must be after other CSS plugins
-    "gatsby-plugin-netlify" // make sure to keep it last in the array
-  ]
+    "gatsby-plugin-netlify", // make sure to keep it last in the array
+  ],
 };

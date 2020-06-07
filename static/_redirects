@@ -5,4 +5,4 @@ https://laruotaimperia.it/* https://laruotaimperia.com/:splat 301!
 https://www.laruotaimperia.it/* https://laruotaimperia.com/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
-https://la-ruota.netlify.com/* https://laruotaimperia.com/:splat 301!
+https://la-ruota.netlify.app/* https://laruotaimperia.com/:splat 301!

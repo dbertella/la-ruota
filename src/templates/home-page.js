@@ -225,7 +225,7 @@ export const homePageQuery = graphql`
       edges {
         node {
           id
-          likes
+          # likes
           comments
           original
           timestamp
