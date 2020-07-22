@@ -1,44 +1,44 @@
-import React from 'react'
-import { navigate } from 'gatsby-link'
-import styled from 'styled-components'
+import React from "react";
+import { navigate } from "gatsby-link";
+import styled from "styled-components";
 
 const Wrapper = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   justify-content: center;
   gap: 1rem 1rem;
   margin: 1rem 0;
   background: #f5f5f5;
   padding: 2rem;
-`
+`;
 
 function encode(data) {
   return Object.keys(data)
-    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-    .join('&')
+    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
 }
 
 export default class Index extends React.Component {
-  state = { isValidated: false }
+  state = { isValidated: false };
 
-  handleChange = e => {
-    this.setState({ [e.target.name]: e.target.value })
-  }
+  handleChange = (e) => {
+    this.setState({ [e.target.name]: e.target.value });
+  };
 
-  handleSubmit = e => {
-    e.preventDefault()
-    const form = e.target
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+  handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({
-        'form-name': form.getAttribute('name'),
-        ...this.state
-      })
+        "form-name": form.getAttribute("name"),
+        ...this.state,
+      }),
     })
-      .then(() => navigate(form.getAttribute('action')))
-      .catch(error => alert(error))
-  }
+      .then(() => navigate(form.getAttribute("action")))
+      .catch((error) => alert(error));
+  };
 
   render() {
     return (
@@ -70,22 +70,7 @@ export default class Index extends React.Component {
                 name="nome"
                 onChange={this.handleChange}
                 id="nome"
-                required={true}
-              />
-            </div>
-          </div>
-          <div className="field">
-            <label className="label" htmlFor="cognome">
-              Congnome
-            </label>
-            <div className="control">
-              <input
-                className="input"
-                type="text"
-                name="cognome"
-                onChange={this.handleChange}
-                id="cognome"
-                required={true}
+                required
               />
             </div>
           </div>
@@ -100,7 +85,21 @@ export default class Index extends React.Component {
                 name="telefono"
                 onChange={this.handleChange}
                 id="telefono"
-                required={true}
+                required
+              />
+            </div>
+          </div>
+          <div className="field">
+            <label className="label" htmlFor="email">
+              Email
+            </label>
+            <div className="control">
+              <input
+                className="input"
+                type="email"
+                name="email"
+                onChange={this.handleChange}
+                id="email"
               />
             </div>
           </div>
@@ -116,7 +115,7 @@ export default class Index extends React.Component {
                 name="quanti"
                 onChange={this.handleChange}
                 id="quanti"
-                required={true}
+                required
               />
             </div>
           </div>
@@ -131,7 +130,7 @@ export default class Index extends React.Component {
                 name="data"
                 onChange={this.handleChange}
                 id="data"
-                required={true}
+                required
               />
             </div>
           </div>
@@ -146,7 +145,7 @@ export default class Index extends React.Component {
                 name="orario"
                 onChange={this.handleChange}
                 id="orario"
-                required={true}
+                required
               />
             </div>
           </div>
@@ -171,6 +170,6 @@ export default class Index extends React.Component {
           </div>
         </Wrapper>
       </form>
-    )
+    );
   }
 }
