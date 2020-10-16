@@ -3,10 +3,9 @@ templateKey: product-page
 title: Il Nostro Menu alla Carta
 image: /img/29090588_187364998715856_5683502580387282944_n.jpg
 heading: Cosa Offriamo
-description: >-
-  Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il nostro menu
-  varia SEMPRE, eh sì! Ma vi abbiamo scritto comunque qualche esempio di piatti
-  tipici per mettervi l’acquolina in bocca…
+description: Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il
+  nostro menu varia SEMPRE, eh sì! Ma vi abbiamo scritto comunque qualche
+  esempio di piatti tipici per mettervi l’acquolina in bocca…
 pricing:
   heading: I Suggerimenti dello Chef
   plans:
@@ -39,14 +38,13 @@ intro:
     - image: /img/menu_03.png
       text: Preparato al momento
   heading: Il Nostro Menu
-  description: >-
-    Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il nostro
-    menu varia SEMPRE, eh sì! Ma vi abbiamo scritto comunque qualche esempio di
-    piatti tipici per mettervi l’acquolina in bocca… Abbiamo pure una buona
-    scelta di dolci tra i quali il torroncino ghiacciato con salsa alla menta,
-    il creme caramel, la torta al limone o al cioccolato ed altri a seconda
-    della stagione. La nostra carta dei vini contiene una vasta gamma di vini
-    liguri e sardi e una buona rappresentanza delle altre regioni d’Italia.
+  description: Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il
+    nostro menu varia SEMPRE, eh sì! Ma vi abbiamo scritto comunque qualche
+    esempio di piatti tipici per mettervi l’acquolina in bocca… Abbiamo pure una
+    buona scelta di dolci tra i quali il torroncino ghiacciato con salsa alla
+    menta, il creme caramel, la torta al limone o al cioccolato ed altri a
+    seconda della stagione. La nostra carta dei vini contiene una vasta gamma di
+    vini liguri e sardi e una buona rappresentanza delle altre regioni d’Italia.
 main:
   heading: Oppure venite da noi…
   description: e lasciatevi consigliare dallo Chef e scoprite il pesce fresco del giorno!
@@ -54,21 +52,11 @@ main:
     alt: Gamberoni Freschi
     image: /img/30604202_984371245067141_3002335826718752768_n.jpg
   image2:
-    alt: Moscardini
+    alt: Calamari e porcini freschi
     image: /img/35617536_270808226799285_8575054140932096000_n.jpg
   image3:
-    alt: Riccio di mare
-    image: /img/50883760_131604997883093_8817560896456359312_n.jpg
-testimonials:
-  - author: '"Pranzo con amici"'
-    quote: >-
-      Splendido pranzo in riva al mare. Il cibo era ottimo e il servizio
-      eccellente. Facilissimo da raggiungere, con una vista mozzafiato sul mare
-      e sulla collina. Ve lo consiglio vivamente
-  - author: '"Piacevolissimo Pranzo Sul Mare"'
-    quote: >-
-      Ottima cucina, squisiti gli antipasti, superbo il risotto ai frutti di
-      mare. Grande cortesia del personale. Cosa dire della posizione? Una
-      Terrazza sul mare
-full_image: /img/la-foce.png
+    alt: Diventerà pesto
+    image: /img/29090511_411918485927209_4379232587252498432_n.jpg
+testimonials: []
+full_image: /img/img_1027.jpg
 ---
