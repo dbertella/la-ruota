@@ -215,14 +215,4 @@ collections:
                   },
                 ],
             }
-          - {
-              label: Testimonials,
-              name: testimonials,
-              widget: list,
-              fields:
-                [
-                  { label: Quote, name: quote, widget: string },
-                  { label: Author, name: author, widget: string },
-                ],
-            }
           - { label: Full_image, name: full_image, widget: image }

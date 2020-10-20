@@ -57,6 +57,5 @@ main:
   image3:
     alt: Diventerà pesto
     image: /img/29090511_411918485927209_4379232587252498432_n.jpg
-testimonials: []
 full_image: /img/img_1027.jpg
 ---
