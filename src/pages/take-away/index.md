@@ -9,7 +9,7 @@ Puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa tua!
 
 #### **[Clicca Qui per scaricare il Nostro MENU](https://laruotaimperia.com/img/menu_ottobre2020.pdf)**
 
-**[](https://laruotaimperia.com/img/menu_ottobre2020.pdf)Avrai anche la possibilità di prenotare il tuo vino:[](https://laruotaimperia.com/news/2020-05-20-carta-dei-vini/)**
+[](https://laruotaimperia.com/img/menu_ottobre2020.pdf)**Avrai anche la possibilità di prenotare il tuo vino:**[](https://laruotaimperia.com/news/2020-05-20-carta-dei-vini/)
 
 **[Scopri la nostra carta dei VINI --------> Clicca qui](https://laruotaimperia.com/news/2020-05-20-carta-dei-vini/)**
 
@@ -18,10 +18,8 @@ Puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa tua!
 ## [](hattps://la_ruota.netlify.com/img/takeawayLa_ruota2.pdf)Metodi di prenotazione
 
 * Attraverso il [form del nostro sito](/contatti) o per e-mail a [](mailto:info@laruotaimperia.com)laruota.im@gmail.com, in questo caso l’ordine verrà confermato da noi telefonicamente.
-* Chiamandoci al numero **018361206** del ristorante o cliccando su questo link---> 
+* Chiamandoci al numero **018361206** del ristorante o cliccando su questo link---> [Chatta con noi!](https://wa.me/39018361206)
 * #### Con le seguenti modalità:
-
-
 
 Indicandoci quello che desideri entro le ore 14:00 del giorno di ritiro per la Cena oppure entro le 16:00 del giorno precedente per il Pranzo.[](https://laruotaimperia.com/img/menu_ottobre2020.pdf)
 
