@@ -42,6 +42,6 @@ Metodo di pagamento:
 
   Il tutto verrà confezionato in contenitori di alluminio o materiale biodegradabile, allegheremo una scheda contenente le istruzioni per il riscaldamento e la presentazione del piatto.
 
-Potete scegliere di avere la pietanza completa o, quando possibile, gli ingredienti separati pronti per essere impiattati da assemblare a casa come dei veri chef!
+Potete scegliere di avere la pietanza completa o, quando possibile, gli ingredienti separati pronti per essere impiattati da assemblare a casa come dei veri chef![](https://laruotaimperia.com/img/menu_ottobre2020.pdf)
 
-#### **[Clicca Qui per scaricare il Nostro MENU](/img/la_ruota_takeaway.pdf)**
+#### **[Clicca Qui per scaricare il Nostro MENU](https://laruotaimperia.com/img/menu_ottobre2020.pdf)**
