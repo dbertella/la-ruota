@@ -31,6 +31,12 @@ Indicandoci quello che desideri entro le ore 14:00 del giorno di ritiro per la C
 
 **Dinner**: dalle 19:00 alle 20:00
 
+## [](https://laruotaimperia.com/img/menu_ottobre2020.pdf)Orari di consegna a casa Vostra
+
+**Lunch** : dalle 11:00 alle 12:30
+
+**Dinner**: dalle 18:00 alle 19:30
+
 Metodo di pagamento:
 
 * Contanti
@@ -38,6 +44,8 @@ Metodo di pagamento:
 * Bonifico
 
   #### Come vengono servite?
+
+  * Le pietanze a domicilio verranno consegnate refrigerate con le istruzioni per riscardarle alla temperatura e cottura perfetta
 * Le pietanze del menu da asporto ritirate al ristorante invece saranno servite refrigerate o calde a seconda della richiesta 
 
   Il tutto verrà confezionato in contenitori di alluminio o materiale biodegradabile, allegheremo una scheda contenente le istruzioni per il riscaldamento e la presentazione del piatto.
