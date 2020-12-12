@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Pranzo di Natale 2020
 date: 2020-12-12T09:27:21.506Z
 description: Pranzo di Natale 2020
-image: /img/pranzo-di-pasqua-2020-2-.png
+image: /img/pranzo-di-pasqua-2020-3-.png
 tags:
   - Natale
 ---
