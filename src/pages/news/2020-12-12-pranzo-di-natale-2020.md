@@ -45,9 +45,9 @@ tags:
 
 **n.b: Il menu verrà consegnato refrigerato da scaldare prima del consumo.**
 
-[Se gradisci anche una buona bottiglia di Vino, CLICCA QUI per scegliere la tua preferita!](https://laruotaimperia.com/img/carta_Vini2019.pdf)
+[Se gradisci anche una buona bottiglia di Vino, CLICCA QUI per scegliere la tua preferita!](https://laruotaimperia.com/news/2020-05-20-carta-dei-vini/)
 
-<!--StartFragment-->
+[](https://laruotaimperia.com/news/2020-05-20-carta-dei-vini/)<!--StartFragment-->
 
 ## Metodi di prenotazione
 
