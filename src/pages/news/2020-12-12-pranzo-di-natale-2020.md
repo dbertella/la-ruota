@@ -51,10 +51,10 @@ tags:
 
 ## Metodi di prenotazione
 
-* Chiamandoci al numero**018361206** del ristorante o cliccando su questo link--->[Chatta con noi!](https://wa.me/39018361206)
+* Chiamandoci al numero **018361206** del ristorante o cliccando su questo link--->[Chatta con noi!](https://wa.me/39018361206)
 
   ### Con le seguenti modalità:
 
-  * ##### Prenotando entro il giorno 23 Dicembre
+  * #### Prenotando entro il giorno 23 Dicembre
 * Potete ritirare il Vostro pranzo presso il Ristorante il giorno 25 Dicembre entro le 12:00
-* Consegna a Domicilio il giorno 25 Dicembre dalle ore 9 alle ore 12
+* Consegna a Domicilio il giorno 25 Dicembre dalle ore 9:00 alle ore 12:00
