@@ -41,7 +41,7 @@ tags:
 
 ***Il prezzo del menu è di euro 50,00 a persona***
 
-**Il Prosecco e la consegna (se richiesta) sono compresi!**
+**Il Prosecco (1 bottiglia ogni due persone) e la consegna se richiesta, sono compresi!**
 
 **n.b: Il menu verrà consegnato refrigerato da scaldare prima del consumo.**
 
