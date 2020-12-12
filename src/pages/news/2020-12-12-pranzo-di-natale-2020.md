@@ -29,11 +29,11 @@ tags:
 
 *Agnello arrosto al mirto*
 
-*\*\***
+\*\*\*\**
 
 *Torta foresta nera*
 
-*\*\***
+\*\*\*\**
 
 *Prosecco di Valdobbiadene*
 
@@ -41,7 +41,7 @@ tags:
 
 ***Il prezzo del menu è di euro 50,00 a persona***
 
- ***Compreso di Prosecco e consegna se richiesta!***
+**Il Prosecco e la consegna (se richiesta) sono compresi!**
 
 **n.b: Il menu verrà consegnato refrigerato da scaldare prima del consumo.**
 
