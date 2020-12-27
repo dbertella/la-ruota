@@ -7,9 +7,9 @@ Puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa tua!
 
 ![Take away logo](/img/la-ruota-take-away.png)
 
-#### **[Clicca Qui per scaricare il Nostro MENU](https://laruotaimperia.com/img/menu_gennaio2021)**
+#### **[Clicca Qui per scaricare il Nostro MENU](https://laruotaimperia.com/img/menu_gennaio2021.pdf)**
 
-[](https://laruotaimperia.com/img/menu_gennaio2021)[](https://laruotaimperia.com/news/2020-12-27-capodanno-2020/)[](https://laruotaimperia.com/img/menu_ottobre2020.pdf)**Avrai anche la possibilità di prenotare il tuo vino:**[](https://laruotaimperia.com/news/2020-05-20-carta-dei-vini/)
+[](https://laruotaimperia.com/img/menu_gennaio2021.pdf)[](https://laruotaimperia.com/img/menu_gennaio2021)[](https://laruotaimperia.com/news/2020-12-27-capodanno-2020/)[](https://laruotaimperia.com/img/menu_ottobre2020.pdf)**Avrai anche la possibilità di prenotare il tuo vino:**[](https://laruotaimperia.com/news/2020-05-20-carta-dei-vini/)
 
 **[Scopri la nostra carta dei VINI --------> Clicca qui](https://laruotaimperia.com/news/2020-05-20-carta-dei-vini/)**
 
@@ -50,6 +50,6 @@ Metodo di pagamento:
 
   Il tutto verrà confezionato in contenitori di alluminio o materiale biodegradabile, allegheremo una scheda contenente le istruzioni per il riscaldamento e la presentazione del piatto.
 
-Potete scegliere di avere la pietanza completa o, quando possibile, gli ingredienti separati pronti per essere impiattati da assemblare a casa come dei veri chef![](https://laruotaimperia.com/img/menu_ottobre2020.pdf)
+Potete scegliere di avere la pietanza completa o, quando possibile, gli ingredienti separati pronti per essere impiattati da assemblare a casa come dei veri chef![](https://laruotaimperia.com/img/menu_ottobre2020.pdf)[](https://laruotaimperia.com/img/menu_gennaio2021.pdf)
 
-#### **[Clicca Qui per scaricare il Nostro MENU](https://laruotaimperia.com/img/menu_ottobre2020.pdf)**
+#### **[Clicca Qui per scaricare il Nostro MENU](https://laruotaimperia.com/img/menu_gennaio2021.pdf)**
