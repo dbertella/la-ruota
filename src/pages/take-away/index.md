@@ -7,9 +7,9 @@ Puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa tua!
 
 ![Take away logo](/img/la-ruota-take-away.png)
 
-#### **[Clicca Qui per scaricare il Nostro MENU](https://laruotaimperia.com/news/2020-12-27-capodanno-2020/)**
+#### **[Clicca Qui per scaricare il Nostro MENU](https://laruotaimperia.com/img/menu_gennaio2021)**
 
-[](https://laruotaimperia.com/news/2020-12-27-capodanno-2020/)[](https://laruotaimperia.com/img/menu_ottobre2020.pdf)**Avrai anche la possibilità di prenotare il tuo vino:**[](https://laruotaimperia.com/news/2020-05-20-carta-dei-vini/)
+[](https://laruotaimperia.com/img/menu_gennaio2021)[](https://laruotaimperia.com/news/2020-12-27-capodanno-2020/)[](https://laruotaimperia.com/img/menu_ottobre2020.pdf)**Avrai anche la possibilità di prenotare il tuo vino:**[](https://laruotaimperia.com/news/2020-05-20-carta-dei-vini/)
 
 **[Scopri la nostra carta dei VINI --------> Clicca qui](https://laruotaimperia.com/news/2020-05-20-carta-dei-vini/)**
 
@@ -21,11 +21,11 @@ Puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa tua!
 * Chiamandoci al numero **018361206** del ristorante o cliccando su questo link---> [Chatta con noi!](https://wa.me/39018361206)
 * #### Con le seguenti modalità:
 
-Indicandoci quello che desideri entro le ore 14:00 del giorno di ritiro per la Cena oppure entro le 16:00 del giorno precedente per il Pranzo.[](https://laruotaimperia.com/img/menu_ottobre2020.pdf)
+Indicandoci quello che desideri entro le ore 14:00 del giorno di ritiro per la Cena oppure entro le 16:00 del giorno precedente per il Pranzo.[](https://laruotaimperia.com/img/menu_ottobre2020.pdf)[](https://laruotaimperia.com/img/menu_gennaio2021.pdf)
 
-#### **[Clicca Qui per scaricare il Nostro MENU](https://laruotaimperia.com/news/2020-12-27-capodanno-2020/)**
+#### **[Clicca Qui per scaricare il Nostro MENU](https://laruotaimperia.com/img/menu_gennaio2021.pdf)**
 
-## [](https://laruotaimperia.com/news/2020-12-27-capodanno-2020/)[](https://laruotaimperia.com/img/menu_ottobre2020.pdf)Orari di ritiro presso il Ristorante previa prenotazione
+## [](https://laruotaimperia.com/img/menu_gennaio2021.pdf)[](https://laruotaimperia.com/news/2020-12-27-capodanno-2020/)[](https://laruotaimperia.com/img/menu_ottobre2020.pdf)Orari di ritiro presso il Ristorante previa prenotazione
 
 **Lunch** : dalle 12:00 alle 13:30
 
