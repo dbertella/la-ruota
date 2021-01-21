@@ -33,56 +33,55 @@ function SEO({ description, lang, meta, title, image }) {
     site.siteMetadata.image}`;
 
   const location = useLocation();
-  console.log(location)
 
   return (
     <Helmet
       htmlAttributes={{
-        lang
+        lang,
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
           name: `description`,
-          content: metaDescription
+          content: metaDescription,
         },
         {
           property: `og:title`,
-          content: title
+          content: title,
         },
         {
           property: `og:description`,
-          content: metaDescription
+          content: metaDescription,
         },
         {
           property: `og:url`,
-          content: site.siteMetadata.url + location.pathname
+          content: site.siteMetadata.url + location.pathname,
         },
         {
           property: `og:type`,
-          content: `website`
+          content: `website`,
         },
         {
           property: `og:image`,
-          content: metaImage
+          content: metaImage,
         },
         {
           name: `twitter:card`,
-          content: `summary`
+          content: `summary`,
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author
+          content: site.siteMetadata.author,
         },
         {
           name: `twitter:title`,
-          content: title
+          content: title,
         },
         {
           name: `twitter:description`,
-          content: metaDescription
-        }
+          content: metaDescription,
+        },
       ].concat(meta)}
     />
   );
@@ -92,7 +91,7 @@ SEO.defaultProps = {
   lang: `it`,
   description: ``,
   image: null,
-  meta: []
+  meta: [],
 };
 
 SEO.propTypes = {
@@ -101,7 +100,7 @@ SEO.propTypes = {
   author: PropTypes.string,
   image: PropTypes.string,
   lang: PropTypes.string,
-  url: PropTypes.string
+  url: PropTypes.string,
 };
 
 export default SEO;

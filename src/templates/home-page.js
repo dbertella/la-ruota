@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import { get, take } from "lodash";
@@ -81,13 +81,18 @@ const Card = styled(Relative)`
   }
 `;
 
+const IG_ID = "3643692171"; // `laruotaim`
+
+// https://github.com/oorestisime/gatsby-source-instagram/blob/master/src/instagram.js
+const igUrl = (username) =>
+  `https://instagram.com/graphql/query/?query_id=17888483320059182&variables={"id":"${username}","first":12,"after":null}`;
+
 export const HomePageTemplate = ({
   title,
   subtitle,
   carousel,
   content,
   contentComponent,
-  instaFeed
 }) => {
   const PageContent = contentComponent || Content;
   const settings = {
@@ -99,8 +104,27 @@ export const HomePageTemplate = ({
     autoplay: true,
     speed: 2000,
     autoplaySpeed: 10000,
-    cssEase: "linear"
+    cssEase: "linear",
   };
+
+  const [allInsta, setAllInsta] = useState([]);
+  useEffect(() => {
+    fetch(igUrl(IG_ID))
+      .then((j) => j.json())
+      .then(({ data }) => {
+        const photos = [];
+        data.user.edge_owner_to_timeline_media.edges.forEach((edge) => {
+          if (edge.node) {
+            photos.push({
+              id: edge.node.shortcode,
+              thumbnail: edge.node.thumbnail_resources[2].src,
+              caption: edge.node.edge_media_to_caption.edges[0].node.text,
+            });
+          }
+        });
+        setAllInsta(photos);
+      });
+  }, []);
 
   return (
     <>
@@ -146,17 +170,17 @@ export const HomePageTemplate = ({
             <div className="column is-10 is-offset-1">
               <Grid>
                 {take(
-                  instaFeed.edges.map(({ node, ...rest }) => (
+                  allInsta.map(({ id, thumbnail, caption }) => (
                     <a
-                      href={`https://www.instagram.com/p/${node.id}`}
+                      href={`https://www.instagram.com/p/${id}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      key={node.id}
+                      key={id}
                     >
                       <Card>
-                        <img src={node.thumbnails[2].src} alt={node.caption} />
+                        <img src={thumbnail} alt={caption} />
                         <Overlay>
-                          <div>{node.caption}</div>
+                          <div>{caption}</div>
                         </Overlay>
                       </Card>
                     </a>
@@ -178,11 +202,11 @@ HomePageTemplate.propTypes = {
   carousel: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
-  instaFeed: PropTypes.object
+  instaFeed: PropTypes.object,
 };
 
 const HomePage = ({ data }) => {
-  const { markdownRemark: post, allInstaNode } = data;
+  const { markdownRemark: post } = data;
   return (
     <Layout title={post.frontmatter.title}>
       <HomePageTemplate
@@ -191,14 +215,13 @@ const HomePage = ({ data }) => {
         subtitle={post.frontmatter.subtitle}
         carousel={post.frontmatter.carousel}
         content={post.html}
-        instaFeed={allInstaNode}
       />
     </Layout>
   );
 };
 
 HomePage.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired,
 };
 
 export default HomePage;
@@ -217,35 +240,6 @@ export const homePageQuery = graphql`
                 ...GatsbyImageSharpFluid
               }
             }
-          }
-        }
-      }
-    }
-    allInstaNode {
-      edges {
-        node {
-          id
-          # likes
-          comments
-          original
-          timestamp
-          caption
-          localFile {
-            childImageSharp {
-              fixed(width: 150, height: 150) {
-                ...GatsbyImageSharpFixed
-              }
-            }
-          }
-          # Only available with the public api scraper
-          thumbnails {
-            src
-            config_width
-            config_height
-          }
-          dimensions {
-            height
-            width
           }
         }
       }
