@@ -2,8 +2,8 @@
 templateKey: blog-post
 title: Carta dei Vini 2021
 date: 2020-05-20T08:39:14.899Z
-description: Carta dei Vini 2020
-image: /img/carta-dei-vini-2-.png
+description: Carta dei Vini 2021
+image: /img/carta-dei-vini-2-.jpg
 tags:
   - carta vini
 ---
