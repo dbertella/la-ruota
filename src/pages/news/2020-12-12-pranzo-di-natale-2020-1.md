@@ -1,11 +1,11 @@
 ---
 templateKey: blog-post
-title: Pranzo di Natale 2020
-date: 2020-12-12T14:23:29.332Z
+title: Pranzo di Natale 2021
+date: 2021-12-01T10:03:03.038Z
 description: Pranzo di Natale al Ristorante
 image: /img/red-christmas-retail-facebook-post-2-.png
 tags:
-  - Natale 2020
+  - Natale
 ---
 
 
