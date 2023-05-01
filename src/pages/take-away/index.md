@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: Take Away
+title: Carta dei Vini
 image: /img/add-a-subheading-2-.png
 ---
 Puoi comodamente prenotare i tuoi piatti preferiti e consumarli a casa tua!
