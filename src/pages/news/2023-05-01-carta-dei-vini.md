@@ -16,6 +16,6 @@ C﻿licca sui Link per scaricare la nostra selezione di vini e
 * ### [S﻿ardegna](https://laruotaimperia.com/img/sardegna.pdf)
 * ### [](https://laruotaimperia.com/img/mezze_bottiglie.pdf)[M﻿ezze Bottiglie](https://laruotaimperia.com/img/mezze_bottiglie.pdf)
 * ### [](https://laruotaimperia.com/img/rosati.pdf)[R﻿osati](https://laruotaimperia.com/img/rosati.pdf)
-* ### [V﻿ini Rossi](laruotaimperia.com/img/vini_rossi.pdf)
-* ### [](laruotaimperia.com/img/birre-caffetteria.pdf)V﻿ini Passiti
-* ### [B﻿irre](laruotaimperia.com/img/birre-caffetteria.pdf)
+* ### [V﻿ini Rossi](https://laruotaimperia.com/img/vini_rossi.pdf)
+* ### [V﻿ini Passiti](https://laruotaimperia.com/img/da_dessert.pdf)
+* ### [](static/img/birre.pdf)[B﻿irre](static/img/birre.pdf)
