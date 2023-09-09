@@ -9,7 +9,8 @@ C﻿licca sui Link per scaricare la nostra selezione di vini e
 
 * ### [C﻿hampagne](https://laruotaimperia.com/img/champagne.pdf)
 * ### [S﻿pumanti](https://laruotaimperia.com/img/spumanti.pdf)
-* ### [L﻿iguria-Piemonte](https://laruotaimperia.com/img/liguria.pdf)
+* ### [B﻿iologico-Biodinamico](https://laruotaimperia.com/img/bio.pdf)
+* ### [](https://laruotaimperia.com/img/bio.pdf)[L﻿iguria-Piemonte](https://laruotaimperia.com/img/liguria.pdf)
 * ### [](https://laruotaimperia.com/img/friuli.pdf)[F﻿riuli-Venezia-Giulia](https://laruotaimperia.com/img/friuli.pdf)
 * ### [A﻿lto Adige-Campania](https://laruotaimperia.com/img/altroadige_campania.pdf)
 * ### [](https://laruotaimperia.com/img/altoadige_campania.pdf)[M﻿arche-Sicilia](https://laruotaimperia.com/img/marche_sicilia.pdf)
