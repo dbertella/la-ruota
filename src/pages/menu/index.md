@@ -50,13 +50,13 @@ main:
   heading: Oppure venite da noi…
   description: e lasciatevi consigliare dallo Chef e scoprite il pesce fresco del giorno!
   image1:
-    alt: Gamberoni Freschi
-    image: /img/30604202_984371245067141_3002335826718752768_n.jpg
+    alt: Tartare di ricciola e porcini
+    image: /img/immagine-whatsapp-2023-10-02-ore-18.43.20_5837df7c.jpg
   image2:
-    alt: Calamari e porcini freschi
-    image: /img/35617536_270808226799285_8575054140932096000_n.jpg
+    alt: Linguine alla bottarga di muggine e trombette
+    image: /img/immagine-whatsapp-2023-10-02-ore-18.51.16_f3a4603a.jpg
   image3:
-    alt: Diventerà pesto
-    image: /img/29090511_411918485927209_4379232587252498432_n.jpg
+    alt: I Gamberoni viola
+    image: /img/immagine-whatsapp-2023-10-02-ore-18.47.21_d3b9849a.jpg
 full_image: /img/img_1027.jpg
 ---
