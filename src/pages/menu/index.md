@@ -38,13 +38,14 @@ intro:
     - image: /img/menu_03.png
       text: Preparato al momento
   heading: Il Nostro Menu
-  description: Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il
-    nostro menu varia SEMPRE, eh sì! Ma vi abbiamo scritto comunque qualche
-    esempio di piatti tipici per mettervi l’acquolina in bocca… Abbiamo pure una
-    buona scelta di dolci tra i quali il torroncino ghiacciato con salsa alla
-    menta, il creme caramel, la torta al limone o al cioccolato ed altri a
-    seconda della stagione. La nostra carta dei vini contiene una vasta gamma di
-    vini liguri e sardi e una buona rappresentanza delle altre regioni d’Italia.
+  description: >-
+    Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il nostro
+    menu varia SEMPRE, eh sì! Ma vi abbiamo scritto comunque qualche esempio di
+    piatti tipici per mettervi l’acquolina in bocca… Abbiamo pure una buona
+    scelta di dolci tra i quali il semifreddo al torrone di Tonara, la torta al
+    limone o la nostra versione della "colazione a Genova".
+
+     La nostra carta dei vini contiene una vasta gamma di etichette del Ponente Ligure oltre al resto di Italia, potete visualizzarla cliccando [QUI](https://laruotaimperia.com/news/2023-05-01-carta-dei-vini/)
 main:
   heading: Oppure venite da noi…
   description: e lasciatevi consigliare dallo Chef e scoprite il pesce fresco del giorno!
