@@ -10,11 +10,11 @@ pricing:
   heading: I Suggerimenti dello Chef
   plans:
     - items:
-        - Insalata di polpo con fagiolini all’extravergine
-        - Sarde in Saor
+        - Insalata di seppie finocchio e pompelmo rosa
+        - Capponmagro
         - Ostriche fines claires
-        - Calamari con carciofi e polentina
-        - Carpaccio di tonno con salsa agli agrumi
+        - Calamari con porcini su panissa al pistacchio
+        - Carpaccio di tonno
       plan: Antipasti
     - items:
         - Spaghetti alle vongole veraci
@@ -25,9 +25,9 @@ pricing:
       plan: Primi Piatti
     - items:
         - Pescato del giorno con patate e olive taggiasche
-        - Filetto di tonno alla griglia con ratatuille
+        - Filetto di tonno
         - Gamberoni di Oneglia alla griglia
-        - Fritto misto*
+        - Fritto misto
       plan: Secondi Piatti
 intro:
   blurbs:
