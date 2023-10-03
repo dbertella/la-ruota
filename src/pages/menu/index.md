@@ -31,9 +31,9 @@ pricing:
       plan: Secondi Piatti
 intro:
   blurbs:
-    - image: /img/pngegg.png
+    - image: /img/pngegg-7-.png
       text: Improntato su una cucina mediterranea
-    - image: /img/pngegg-4-.png
+    - image: /img/pngegg.png
       text: Basato sul pesce fresco e prodotti del territorio
     - image: /img/pngegg-2-.png
       text: Preparato al momento
