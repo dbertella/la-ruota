@@ -4,7 +4,7 @@ title: Ristorante La Ruota
 subtitle: SPECIALITÀ PESCE
 carousel:
   - image: /img/la-foce.png
-  - image: /img/esterno_blu.jpg
+  - image: /img/immagine-whatsapp-2023-10-03-ore-10.20.41_73298449.jpg
   - image: /img/la-ruota.png
 ---
 Situato nel Borgo piu’ caratteristico di Imperia, **Borgo Foce**, dal 1979 il **Ristorante La Ruota** propone una cucina di mare improntata sul **pescato locale**, accompagnato da verdure e oli delle vallate circostanti.
