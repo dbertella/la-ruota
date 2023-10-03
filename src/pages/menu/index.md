@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Il Nostro Menu alla Carta
-image: /img/dentro-1.jpg
+image: /img/acciughe_c.jpg
 heading: Cosa Offriamo
 description: Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il
   nostro menu varia SEMPRE, eh sì! Ma vi abbiamo scritto comunque qualche
