@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Il Nostro Menu alla Carta
-image: /img/immagine-whatsapp-2023-10-03-ore-10.28.22_b9108b68.jpg
+image: /img/dentro-1.jpg
 heading: Cosa Offriamo
 description: Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il
   nostro menu varia SEMPRE, eh sì! Ma vi abbiamo scritto comunque qualche
