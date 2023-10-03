@@ -31,11 +31,11 @@ pricing:
       plan: Secondi Piatti
 intro:
   blurbs:
-    - image: /img/menu_06.png
+    - image: /img/pngegg.png
       text: Improntato su una cucina mediterranea
-    - image: /img/conchiglia.png
+    - image: /img/pngegg-4-.png
       text: Basato sul pesce fresco e prodotti del territorio
-    - image: /img/menu_03.png
+    - image: /img/pngegg-2-.png
       text: Preparato al momento
   heading: Il Nostro Menu
   description: >-
