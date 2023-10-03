@@ -45,7 +45,8 @@ intro:
     scelta di dolci tra i quali il semifreddo al torrone di Tonara, la torta al
     limone o la nostra versione della "colazione a Genova".
 
-     La nostra carta dei vini contiene una vasta gamma di etichette del Ponente Ligure oltre al resto di Italia, potete visualizzarla cliccando [QUI](https://laruotaimperia.com/news/2023-05-01-carta-dei-vini/)
+
+    [ La nostra carta dei vini contiene una vasta gamma di etichette del Ponente Ligure oltre al resto di Italia, potete visualizzarla cliccando QUI](https://laruotaimperia.com/news/2023-05-01-carta-dei-vini/)
 main:
   heading: Oppure venite da noi…
   description: e lasciatevi consigliare dallo Chef e scoprite il pesce fresco del giorno!
