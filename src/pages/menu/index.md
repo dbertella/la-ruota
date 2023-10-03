@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Il Nostro Menu alla Carta
-image: /img/29090588_187364998715856_5683502580387282944_n.jpg
+image: /img/immagine-whatsapp-2023-10-03-ore-10.28.22_b9108b68.jpg
 heading: Cosa Offriamo
 description: Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il
   nostro menu varia SEMPRE, eh sì! Ma vi abbiamo scritto comunque qualche
@@ -58,5 +58,5 @@ main:
   image3:
     alt: I Gamberoni viola
     image: /img/immagine-whatsapp-2023-10-02-ore-18.47.21_d3b9849a.jpg
-full_image: /img/img_1027.jpg
+full_image: /img/immagine-whatsapp-2023-10-03-ore-10.21.43_b534e395.jpg
 ---
