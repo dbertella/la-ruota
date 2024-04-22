@@ -17,7 +17,7 @@ image: /img/carta-dei-vini.png
 * ### [S﻿ardegna](https://laruotaimperia.com/img/sardegna.pdf)
 * ### [](https://laruotaimperia.com/img/mezze_bottiglie.pdf)[M﻿ezze Bottiglie](https://laruotaimperia.com/img/mezze.pdf)
 * ### [](https://laruotaimperia.com/img/rosati.pdf)[R﻿osati](https://laruotaimperia.com/img/rosati.pdf)
-* ### [V﻿ini Rossi](https://laruotaimperia.com/img/vini_rossi.pdf)
+* ### [V﻿ini Rossi](https://laruotaimperia.com/img/rossi.pdf)
 * ### [V﻿ini Passiti](https://laruotaimperia.com/img/da_dessert.pdf)
 * ### [](https://laruotaimperia.com/img/birrecaffetteria.pdf)[B﻿irre](https://laruotaimperia.com/img/birrecaffetteria.pdf)
 * ### [C﻿affetteria](https://laruotaimperia.com/img/birrecaffetteria.pdf)
