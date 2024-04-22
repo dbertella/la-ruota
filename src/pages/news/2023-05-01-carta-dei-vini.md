@@ -3,9 +3,9 @@ templateKey: blog-post
 title: Carta dei Vini
 date: 2023-05-01T10:22:26.015Z
 description: Carta dei Vini 2024
-image: /img/pngegg.png
+image: /img/carta-dei-vini.png
 ---
-# C﻿licca sui Link per scaricare la nostra selezione di vini  
+# C﻿licca sui Link per scaricare la nostra selezione di vini
 
 * # [C﻿hampagne](https://laruotaimperia.com/img/champagne.pdf)
 * ### [S﻿pumanti](https://laruotaimperia.com/img/spumanti.pdf)
@@ -19,5 +19,5 @@ image: /img/pngegg.png
 * ### [](https://laruotaimperia.com/img/rosati.pdf)[R﻿osati](https://laruotaimperia.com/img/rosati.pdf)
 * ### [V﻿ini Rossi](https://laruotaimperia.com/img/vini_rossi.pdf)
 * ### [V﻿ini Passiti](https://laruotaimperia.com/img/da_dessert.pdf)
-* ### [](static/img/birrecaffetteria.pdf)[B﻿irre](static/img/birrecaffetteria.pdf)
+* ### [](https://laruotaimperia.com/img/birrecaffetteria.pdf)[B﻿irre](https://laruotaimperia.com/img/birrecaffetteria.pdf)
 * ### [C﻿affetteria](https://laruotaimperia.com/img/birrecaffetteria.pdf)
