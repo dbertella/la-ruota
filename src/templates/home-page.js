@@ -46,10 +46,16 @@ const WrapPageContent = styled.div`
 
 const Grid = styled.div`
   display: grid;
-  grid-template-columns: 320px 320px 320px;
+  grid-template-columns: repeat(auto-fill, 320px);
   justify-content: center;
   gap: 1rem 1rem;
   margin: 1rem 0;
+  @media (min-width: 768px) {
+    grid-template-columns: 320px 320px;
+  }
+  @media (min-width: 1088px) {
+    grid-template-columns: 320px 320px 320px;
+  }
 `;
 
 const settings = {
@@ -172,7 +178,7 @@ export const homePageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
       limit: 3
     ) {

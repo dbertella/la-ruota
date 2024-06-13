@@ -40,7 +40,7 @@ NewsPage.propTypes = {
 export const pageQuery = graphql`
   query NewsQuery {
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
     ) {
       edges {
