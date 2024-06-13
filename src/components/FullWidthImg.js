@@ -11,7 +11,7 @@ export const FullWidthImg = styled.div`
   margin-top: 0;
 `
 
-export default ({ image }) => (
+const FullImageComponent = ({ image }) => (
   <FullWidthImg
     style={{
       backgroundImage: `url(${
@@ -20,3 +20,5 @@ export default ({ image }) => (
     }}
   />
 )
+
+export default FullImageComponent

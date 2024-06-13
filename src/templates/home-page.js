@@ -1,18 +1,20 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import { get, take } from "lodash";
+import { get } from "lodash";
 import Slider from "react-slick";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Content, { HTMLContent } from "../components/Content";
 import Layout from "../components/Layout";
 import { Image } from "../components/Image";
+import { PostPreview } from "../components/PostPreview";
 
 const Relative = styled.div`
   position: relative;
   max-width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
+  max-height: 500px;
 `;
 const Absolute = styled.div`
   margin: 2rem 1rem 1rem;
@@ -43,49 +45,24 @@ const WrapPageContent = styled.div`
 `;
 
 const Grid = styled.div`
-  grid-template-columns: 320px;
-  grid-template-rows: 320px;
   display: grid;
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
+  grid-template-columns: 320px 320px 320px;
   justify-content: center;
-  @media (min-width: 768px) {
-    grid-template-columns: 320px 320px;
-  }
-  @media (min-width: 1088px) {
-    grid-template-columns: 320px 320px 320px;
-  }
-`;
-const Overlay = styled.div`
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 270px;
-  overflow: auto;
-  padding: 1rem;
-  transform: translateY(100%);
-  background: rgba(255, 255, 255, 0.7);
-  font-size: 0.9rem;
-  transition: transform 0.5s ease-in-out, background 0.5s ease-in-out;
+  gap: 1rem 1rem;
+  margin: 1rem 0;
 `;
 
-const Card = styled(Relative)`
-  height: 320px;
-  width: 320px;
-  overflow: hidden;
-  &:hover {
-    ${Overlay} {
-      transform: translateY(0%);
-    }
-  }
-`;
-
-const IG_ID = "3643692171"; // `laruotaim`
-
-// https://github.com/oorestisime/gatsby-source-instagram/blob/master/src/instagram.js
-const igUrl = (username) =>
-  `https://instagram.com/graphql/query/?query_id=17888483320059182&variables={"id":"${username}","first":12,"after":null}`;
+const settings = {
+  dots: true,
+  infinite: true,
+  fade: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  speed: 2000,
+  autoplaySpeed: 10000,
+  cssEase: "linear",
+};
 
 export const HomePageTemplate = ({
   title,
@@ -93,39 +70,9 @@ export const HomePageTemplate = ({
   carousel,
   content,
   contentComponent,
+  posts,
 }) => {
   const PageContent = contentComponent || Content;
-  const settings = {
-    dots: true,
-    infinite: true,
-    fade: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 10000,
-    cssEase: "linear",
-  };
-
-  const [allInsta, setAllInsta] = useState([]);
-  useEffect(() => {
-    fetch(igUrl(IG_ID))
-      .then((j) => j.json())
-      .then(({ data }) => {
-        const photos = [];
-        data.user.edge_owner_to_timeline_media.edges.forEach((edge) => {
-          if (edge.node) {
-            photos.push({
-              id: edge.node.shortcode,
-              thumbnail: edge.node.thumbnail_resources[2].src,
-              caption: edge.node.edge_media_to_caption.edges[0].node.text,
-            });
-          }
-        });
-        setAllInsta(photos);
-      });
-  }, []);
-
   return (
     <>
       <Helmet>
@@ -164,34 +111,11 @@ export const HomePageTemplate = ({
           </div>
         </Absolute>
       </Relative>
-      <section className="section">
-        <div className="container">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <Grid>
-                {take(
-                  allInsta.map(({ id, thumbnail, caption }) => (
-                    <a
-                      href={`https://www.instagram.com/p/${id}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      key={id}
-                    >
-                      <Card>
-                        <img src={thumbnail} alt={caption} />
-                        <Overlay>
-                          <div>{caption}</div>
-                        </Overlay>
-                      </Card>
-                    </a>
-                  )),
-                  9
-                )}
-              </Grid>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Grid>
+        {posts.map(({ node: post }) => (
+          <PostPreview post={post} key={post.id} />
+        ))}
+      </Grid>
     </>
   );
 };
@@ -202,11 +126,13 @@ HomePageTemplate.propTypes = {
   carousel: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
-  instaFeed: PropTypes.object,
+  posts: PropTypes.array,
 };
 
 const HomePage = ({ data }) => {
-  const { markdownRemark: post } = data;
+  const { markdownRemark: post, allMarkdownRemark } = data;
+
+  console.log(allMarkdownRemark);
   return (
     <Layout title={post.frontmatter.title}>
       <HomePageTemplate
@@ -215,6 +141,7 @@ const HomePage = ({ data }) => {
         subtitle={post.frontmatter.subtitle}
         carousel={post.frontmatter.carousel}
         content={post.html}
+        posts={allMarkdownRemark.edges}
       />
     </Layout>
   );
@@ -240,6 +167,34 @@ export const homePageQuery = graphql`
                 ...GatsbyImageSharpFluid
               }
             }
+          }
+        }
+      }
+    }
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+      limit: 3
+    ) {
+      edges {
+        node {
+          excerpt(pruneLength: 200)
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            templateKey
+            image {
+              childImageSharp {
+                fluid(maxWidth: 420, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            tags
+            date(formatString: "DD-MM-YYYY")
           }
         }
       }

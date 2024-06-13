@@ -1,10 +1,8 @@
-import React from 'react'
-import styled from 'styled-components'
-import logo from '../img/logo.jpg'
+import React from "react";
+import styled from "styled-components";
+import logo from "../img/170 - logo - def - boxato.svg";
 
 const LogoWrapper = styled.div`
-  background-color: #fafafa;
-  border-radius: 50%;
   box-sizing: border-box;
   display: block;
   flex: 0 0 auto;
@@ -12,16 +10,16 @@ const LogoWrapper = styled.div`
   position: relative;
   width: 100px;
   height: 100px;
-`
+`;
 
 const Img = styled.img`
-    height: 100%;
-    width: 100%;
-    max-height: none !important;
-`
+  height: 100%;
+  width: 100%;
+  max-height: none !important;
+`;
 
 export const Logo = () => (
   <LogoWrapper>
     <Img src={logo} alt="La Ruota Imperia" />
   </LogoWrapper>
-)
+);

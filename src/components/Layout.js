@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from "gatsby";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "./all.sass";
-import SEO from "./seo";
+import Seo from "./seo";
 
 const TemplateWrapper = ({ children, title, image, description }) => (
   <StaticQuery
@@ -19,7 +19,7 @@ const TemplateWrapper = ({ children, title, image, description }) => (
     `}
     render={data => (
       <div>
-        <SEO
+        <Seo
           title={title || data.site.siteMetadata.title}
           image={image}
           description={description}
