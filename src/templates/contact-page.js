@@ -5,17 +5,21 @@ import Content, { HTMLContent } from "../components/Content";
 import ContactForm from "../components/ContactForm";
 import FullWidthImg from "../components/FullWidthImg";
 import Layout from "../components/Layout";
+import { Helmet } from "react-helmet";
 
 export const ContactPageTemplate = ({
   title,
   image,
   content,
-  contentComponent
+  contentComponent,
 }) => {
   const PageContent = contentComponent || Content;
 
   return (
     <>
+      <Helmet>
+        <style>{`.tf-widget-button{opacity:1;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border:1px solid;z-index:9999999;background-color:#fff;border-radius:4px;display:-webkit-box;display:-ms-flexbox;display:flex;height:42px;width:320px;border-color:hsl(174, 100%, 20%);color:hsl(174, 100%, 20%)}.tf-button-link{text-decoration:none;color:hsl(174, 100%, 20%);font-family:Raleway,sans-serif;font-size:1.1em;width:100%;text-align:center}.tf-button-link:hover{font-weight:700;background:none!important}`}</style>
+      </Helmet>
       <FullWidthImg image={image} />
       <section className="section section--gradient">
         <div className="container content">
@@ -23,6 +27,18 @@ export const ContactPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
               <PageContent className="content" content={content} />
+
+              <div className="tf-widget-button">
+                <a
+                  className="tf-button-link"
+                  href="https://widget.thefork.com/0110df9b-74bd-441d-b80f-35057ccfa211"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Prenota un tavolo tramite the fork
+                </a>
+              </div>
+
               <ContactForm />
             </div>
           </div>
@@ -36,7 +52,7 @@ ContactPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  contentComponent: PropTypes.func
+  contentComponent: PropTypes.func,
 };
 
 const ContactPage = ({ data }) => {
@@ -55,7 +71,7 @@ const ContactPage = ({ data }) => {
 };
 
 ContactPage.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired,
 };
 
 export default ContactPage;
