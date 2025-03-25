@@ -59,5 +59,5 @@ main:
   image3:
     alt: I Gamberoni viola
     image: /img/immagine-whatsapp-2023-10-02-ore-18.47.21_d3b9849a.jpg
-full_image: /img/immagine-whatsapp-2023-10-03-ore-10.21.43_b534e395.jpg
+full_image: /img/29401053_439974526423503_4197193190140280832_n.jpg
 ---
