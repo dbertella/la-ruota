@@ -71,8 +71,8 @@ export const ProductPageTemplate = ({
       className="full-width-image-container has-margin-top-0 has-margin-bottom-0"
       style={{
         backgroundImage: `url(${
-          fullImage.childImageSharp
-            ? fullImage.childImageSharp.fluid.src
+          fullImage?.childImageSharp
+            ? fullImage?.childImageSharp?.fluid?.src
             : fullImage
         })`,
       }}
