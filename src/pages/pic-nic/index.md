@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Pic nic
-image: /img/acciughe_c.jpg
+image: /img/blue-modern-start-your-journey-email-header.png
 heading: Cosa Offriamo
 description: Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il
   nostro menu varia SEMPRE, eh sì! Ma vi abbiamo scritto comunque qualche
