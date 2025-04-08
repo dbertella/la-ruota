@@ -44,9 +44,8 @@ intro:
       text: Preparato al momento
   heading: 🐟 Pic-Nic Gourmet by La Ruota 🦞
   description: >-
-    
-
-    Un’esperienza unica pensata per voi,  dal nostro storico ristorante sul mare, a due passi dalla spiaggia!
+    Un’esperienza unica pensata per voi,  dal nostro storico ristorante sul
+    mare, a due passi dalla spiaggia!
 
 
     Scopri la magia di un pranzo all’aperto preparato con passione e ingredienti di altissima qualità. Dal nostro amore per la cucina e il pesce selezionato nasce il nostro esclusivo cesto gourmet , pensato per rendere speciale ogni momento.  
@@ -55,27 +54,21 @@ intro:
     ✨ Come funziona?
 
 
+    * 📞 Prenota il tuo cesto gourmet telefonando al 018361206 o mandando un Whatsapp entro 24 ore dal ritiro
+
     * Scegli la formula che fa per te tra:
 
       * Cesto gourmet con una selezione di pesce fresco, specialità locali e dolci raffinati.  
-      *
-      * CDecorazioni personalizzate, come fiori e candele, per creare un’atmosfera intima.  
-      * Decorazioni personalizzate, come fiori e candele, per creare un’atmosfera intima.  
-    * Eventi su Misura 🎉:  
+      * C﻿esto aperitivo con qualche stuzzichino e una bottiglia di vino
+      * C﻿esto panino per un pranzo veloce e informale
+    * * C﻿esto personalizzato per il tuo Pic-nic
 
-      * Celebrazioni di compleanni intimi, anniversari o altri eventi speciali
 
     ✨ Cosa troverai nel tuo cesto?  
 
 
-    * Panini gourmet con pesce fresco : 
-      Un mix perfetto di sapori unici e ingredienti locali.  
-    * Delizie artigianali : 
-      Focacce fatte in casa, condite con aromi mediterranei.  
-    * Dolcezze sul mare : 
-      Dessert preparati dal nostro chef con un tocco di tradizione.  
-    * Bevanda inclusa : 
-      Fresche bibite o vino selezionato per accompagnare il tuo pasto.  
+    * A﻿cqua 
+
     * Kit per il pic-nic : 
       Tovagliette e accessori ecologici, pronti per ogni evenienza.
 main:
