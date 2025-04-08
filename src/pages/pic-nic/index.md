@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: 🐟 Pic-Nic Gourmet by La Ruota 🦞
-image: /img/blue-modern-start-your-journey-email-header.png
+image: /img/blue-modern-start-your-journey-email-header-300-x-100-px-.png
 heading: 🐟 Pic-Nic Gourmet by La Ruota 🦞
 description: "🐟 Pic-Nic Gourmet by La Ruota 🦞  Un’esperienza unica pensata per
   voi,  dal nostro storico ristorante sul mare, a due passi dalla
