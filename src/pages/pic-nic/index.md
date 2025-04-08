@@ -2,33 +2,38 @@
 templateKey: product-page
 title: Pic nic
 image: /img/blue-modern-start-your-journey-email-header.png
-heading: Cosa Offriamo
-description: Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il
-  nostro menu varia SEMPRE, eh sì! Ma vi abbiamo scritto comunque qualche
-  esempio di piatti tipici per mettervi l’acquolina in bocca…
+heading: Pic nic Gourmet
+description: "🐟 Pic-Nic Gourmet by La Ruota 🦞  Un’esperienza unica pensata per
+  voi,  dal nostro storico ristorante sul mare, a due passi dalla
+  spiaggia!  Scopri la magia di un pranzo all’aperto preparato con passione e
+  ingredienti di altissima qualità. Dal nostro amore per la cucina e il pesce
+  selezionato nasce il nostro esclusivo cesto gourmet , pensato per rendere
+  speciale ogni momento. "
 pricing:
   heading: Pic nic
   plans:
     - items:
-        - Insalata di seppie finocchio e pompelmo rosa
+        - Olive taggiasche
+        - Bruschette di Bottarga di tonno e pomodoro
+        - Insalata di panissa e cipollotto
+        - Prosecco
+      plan: Pic-ape_ Euro 35,00
+    - items:
+        - "Due piatti a scelta tra:"
         - Capponmagro
-        - Ostriche fines claires
-        - Calamari con porcini su panissa al pistacchio
-        - Carpaccio di tonno
-      plan: Antipasti
-    - items:
-        - Spaghetti alle vongole veraci
-        - Linguine all’astice
-        - Risotto ai frutti di mare
+        - Insalata di Seppie e pompelmo
         - Trofie al pesto
-        - Pasta alla bottarga di muggine con trombette
-      plan: Primi Piatti
+        - Trofie alla bottarga di muggine con trombette
+        - Dessert
+      plan: Gourmet Pic-nic_ Euro 35 a persona
     - items:
-        - Pescato del giorno con patate e olive taggiasche
-        - Filetto di tonno
-        - Gamberoni di Oneglia alla griglia
-        - Fritto misto
-      plan: Secondi Piatti
+        - "Un panino a scelta tra:"
+        - con Polpo rosticciato Maionese allo zenzero e trombette
+        - con Spada Affumicato Insalatina e Tzatziki
+        - ""
+        - con tonno crudo Emulsione di agrumi e finocchio
+        - Birra o Bibita
+      plan: Panino-nic_ Euro 18 a Persona
 intro:
   blurbs:
     - image: /img/pngegg-7-.png
@@ -37,16 +42,42 @@ intro:
       text: Basato sul pesce fresco e prodotti del territorio
     - image: /img/pngegg-2-.png
       text: Preparato al momento
-  heading: Il Nostro Menu
+  heading: 🐟 Pic-Nic Gourmet by La Ruota 🦞
   description: >-
-    Essendo basato sul pesce fresco scelto dallo Chef ogni mattina, il nostro
-    menu varia SEMPRE, eh sì! Ma vi abbiamo scritto comunque qualche esempio di
-    piatti tipici per mettervi l’acquolina in bocca… Abbiamo pure una buona
-    scelta di dolci tra i quali il semifreddo al torrone di Tonara, la torta al
-    limone o la nostra versione della "colazione a Genova".
+    
+
+    Un’esperienza unica pensata per voi,  dal nostro storico ristorante sul mare, a due passi dalla spiaggia!
 
 
-    **[ La nostra carta dei vini contiene una vasta gamma di etichette del Ponente Ligure oltre al resto di Italia, potete visualizzarla cliccando QUI](https://laruotaimperia.com/news/2023-05-01-carta-dei-vini/)**
+    Scopri la magia di un pranzo all’aperto preparato con passione e ingredienti di altissima qualità. Dal nostro amore per la cucina e il pesce selezionato nasce il nostro esclusivo cesto gourmet , pensato per rendere speciale ogni momento.  
+
+
+    ✨ Come funziona?
+
+
+    * Scegli la formula che fa per te tra:
+
+      * Cesto gourmet con una selezione di pesce fresco, specialità locali e dolci raffinati.  
+      *
+      * CDecorazioni personalizzate, come fiori e candele, per creare un’atmosfera intima.  
+      * Decorazioni personalizzate, come fiori e candele, per creare un’atmosfera intima.  
+    * Eventi su Misura 🎉:  
+
+      * Celebrazioni di compleanni intimi, anniversari o altri eventi speciali
+
+    ✨ Cosa troverai nel tuo cesto?  
+
+
+    * Panini gourmet con pesce fresco : 
+      Un mix perfetto di sapori unici e ingredienti locali.  
+    * Delizie artigianali : 
+      Focacce fatte in casa, condite con aromi mediterranei.  
+    * Dolcezze sul mare : 
+      Dessert preparati dal nostro chef con un tocco di tradizione.  
+    * Bevanda inclusa : 
+      Fresche bibite o vino selezionato per accompagnare il tuo pasto.  
+    * Kit per il pic-nic : 
+      Tovagliette e accessori ecologici, pronti per ogni evenienza.
 main:
   heading: Oppure venite da noi…
   description: e lasciatevi consigliare dallo Chef e scoprite il pesce fresco del giorno!
