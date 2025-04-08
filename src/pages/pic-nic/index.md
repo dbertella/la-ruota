@@ -36,59 +36,36 @@ pricing:
       plan: Panino-nic_ Euro 18 a Persona
 intro:
   blurbs:
-    - text: >-
+    - text: >
         ✨ Come funziona?
 
 
         * 📞 Prenota il tuo cesto gourmet telefonando al 018361206 o mandando un Whatsapp entro 24 ore dal ritiro
-
-        * Scegli la formula che fa per te tra:
-
-          * Cesto gourmet con una selezione di pesce fresco, specialità locali e dolci raffinati.  
-          * C﻿esto aperitivo con qualche stuzzichino e una bottiglia di vino
-          * C﻿esto panino per un pranzo veloce e informale
-        * * C﻿esto personalizzato per il tuo Pic-nic
       image: /img/untitled-design-2.png
+    - image: /img/cestino_pic_nic_con_manico_2_ante_vimini_accessori_2_persone_fodera_grigia-thumbnail-500x500-70.jpeg
+      text: |-
+        ✨ Cosa troverai nel tuo cesto?  
+
+        * A﻿cqua 
+        * Kit per il pic-nic : 
+          Tovagliette e accessori ecologici, pronti per ogni evenienza.
+    - image: /img/pngegg.png
+      text: >-
+        ✨ Come si ritira?
+
+
+        * S﻿tabiliremo un orario di ritiro presso il Nostro ristorante alla prenotazione
+
+        * T﻿i chiederemo come caparra un documento di identità per la restituzione del cestino in vimini o lo zaino.
+
+        * E﻿ffettui il pagamento e goditi l'esperienza!
   heading: 🐟 Pic-Nic Gourmet by La Ruota 🦞
   description: >-
     Un’esperienza unica pensata per voi,  dal nostro storico ristorante sul
     mare, a due passi dalla spiaggia!
 
 
-    Scopri la magia di un pranzo all’aperto preparato con passione e ingredienti di altissima qualità. Dal nostro amore per la cucina e il pesce selezionato nasce il nostro esclusivo cesto gourmet , pensato per rendere speciale ogni momento.  
-
-
-    ✨ Come funziona?
-
-
-    * 📞 Prenota il tuo cesto gourmet telefonando al 018361206 o mandando un Whatsapp entro 24 ore dal ritiro
-
-    * Scegli la formula che fa per te tra:
-
-      * Cesto gourmet con una selezione di pesce fresco, specialità locali e dolci raffinati.  
-      * C﻿esto aperitivo con qualche stuzzichino e una bottiglia di vino
-      * C﻿esto panino per un pranzo veloce e informale
-    * * C﻿esto personalizzato per il tuo Pic-nic
-
-
-    ✨ Cosa troverai nel tuo cesto?  
-
-
-    * A﻿cqua 
-
-    * Kit per il pic-nic : 
-      Tovagliette e accessori ecologici, pronti per ogni evenienza.
-
-
-
-    ✨ Come si ritira?
-
-
-    * S﻿tabiliremo un orario di ritiro presso il Nostro ristorante alla prenotazione
-
-    * T﻿i chiederemo come caparra un documento di identità per la restituzione del cestino in vimini o lo zaino.
-
-    * E﻿ffettui il pagamento e goditi l'esperienza!
+    Scopri la magia di un pranzo all’aperto preparato con passione e ingredienti di altissima qualità. Dal nostro amore per la cucina e il pesce selezionato nasce il nostro esclusivo cesto gourmet , pensato per rendere speciale ogni momento.
 main:
   heading: "🌞 Dove goderne?   "
   description: "Sul lungomare, in spiaggia o in un angolo panoramico oppure sulla
