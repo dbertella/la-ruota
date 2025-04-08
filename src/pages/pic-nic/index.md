@@ -35,13 +35,7 @@ pricing:
         - Birra o Bibita
       plan: Panino-nic_ Euro 18 a Persona
 intro:
-  blurbs:
-    - image: /img/pngegg-7-.png
-      text: Improntato su una cucina mediterranea
-    - image: /img/pngegg.png
-      text: Basato sul pesce fresco e prodotti del territorio
-    - image: /img/pngegg-2-.png
-      text: Preparato al momento
+  blurbs: []
   heading: 🐟 Pic-Nic Gourmet by La Ruota 🦞
   description: >-
     Un’esperienza unica pensata per voi,  dal nostro storico ristorante sul
@@ -71,9 +65,21 @@ intro:
 
     * Kit per il pic-nic : 
       Tovagliette e accessori ecologici, pronti per ogni evenienza.
+
+
+
+    ✨ Come si ritira?
+
+
+    * S﻿tabiliremo un orario di ritiro presso il Nostro ristorante alla prenotazione
+
+    * T﻿i chiederemo come caparra un documento di identità per la restituzione del cestino in vimini o lo zaino.
+
+    * E﻿ffettui il pagamento e goditi l'esperienza!
 main:
-  heading: Oppure venite da noi…
-  description: e lasciatevi consigliare dallo Chef e scoprite il pesce fresco del giorno!
+  heading: "🌞 Dove goderne?   "
+  description: "Sul lungomare, in spiaggia o in un angolo panoramico oppure sulla
+    bellissima pista ciclabile : il tuo cesto, il tuo momento!  "
   image1:
     alt: Tartare di ricciola e porcini
     image: /img/immagine-whatsapp-2023-10-02-ore-18.43.20_5837df7c.jpg
