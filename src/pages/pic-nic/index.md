@@ -17,23 +17,23 @@ pricing:
         - Bruschette di Bottarga di tonno e pomodoro
         - Insalata di panissa e cipollotto
         - Bottiglia di Prosecco
-      plan: Pic-nic Aperitivo_ Euro 35,00
+      plan: Pic-nic Aperitivo Euro 35,00
     - items:
-        - "- Due piatti a scelta tra:"
+        - "-Due piatti a scelta tra:"
         - Capponmagro
         - Insalata di Seppie e pompelmo
         - Trofie al pesto
         - Trofie alla bottarga di muggine con trombette
         - Dessert
-      plan: Gourmet Pic-nic_ Euro 35 a Persona
+      plan: Gourmet Pic-nic Euro 35 a Persona
     - items:
-        - "-Un panino a scelta tra:"
+        - "Un panino a scelta tra:"
         - Polpo rosticciato Maionese allo zenzero e trombette
         - Spada Affumicato Insalatina e Tzatziki
         - ""
         - Tonno crudo Emulsione di agrumi e finocchio
         - Birra o Bibita
-      plan: Panino-nic_ Euro 18 a Persona
+      plan: Panino-nic Euro 18 a Persona
 intro:
   blurbs:
     - text: >
