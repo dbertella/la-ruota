@@ -40,25 +40,22 @@ intro:
         ✨ Come funziona?
 
 
-        * 📞 Prenota il tuo cesto gourmet telefonando al 018361206 o mandando un Whatsapp entro 24 ore dal ritiro
+        📞 Prenota il tuo cesto gourmet telefonando al 018361206 o mandando un Whatsapp entro 24 ore dal ritiro
       image: /img/untitled-design-2.png
     - image: /img/cestino_pic_nic_con_manico_2_ante_vimini_accessori_2_persone_fodera_grigia-thumbnail-500x500-70.jpeg
       text: |-
         ✨ Cosa troverai nel tuo cesto?  
 
-        * A﻿cqua 
-        * Kit per il pic-nic : 
+        A﻿cqua , Kit per il pic-nic : 
           Tovagliette e accessori ecologici, pronti per ogni evenienza.
     - image: /img/pngegg.png
       text: >-
         ✨ Come si ritira?
 
 
-        * S﻿tabiliremo un orario di ritiro presso il Nostro ristorante alla prenotazione
+        S﻿tabiliremo un orario di ritiro presso il Nostro ristorante alla prenotazione,
 
-        * T﻿i chiederemo come caparra un documento di identità per la restituzione del cestino in vimini o lo zaino.
-
-        * E﻿ffettui il pagamento e goditi l'esperienza!
+        T﻿i chiederemo come caparra un documento di identità per la restituzione del cestino in vimini o lo zaino,E﻿ffettui il pagamento e goditi l'esperienza!
   heading: 🐟 Pic-Nic Gourmet by La Ruota 🦞
   description: >-
     Un’esperienza unica pensata per voi,  dal nostro storico ristorante sul
