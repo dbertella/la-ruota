@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: 🐟 Pic-Nic Gourmet by La Ruota 🦞
-image: /img/blue-modern-start-your-journey-email-header-300-x-100-px-.png
+image: /img/page-3.png
 heading: 🐟 Pic-Nic Gourmet by La Ruota 🦞
 description: "🐟 Pic-Nic Gourmet by La Ruota 🦞  Un’esperienza unica pensata per
   voi,  dal nostro storico ristorante sul mare, a due passi dalla
@@ -42,7 +42,7 @@ intro:
 
         📞 Prenota il tuo cesto gourmet telefonando al 018361206 o mandando un Whatsapp entro 24 ore dal ritiro
       image: /img/untitled-design-2.png
-    - image: /img/cestino_pic_nic_con_manico_2_ante_vimini_accessori_2_persone_fodera_grigia-thumbnail-500x500-70.jpeg
+    - image: /img/untitled-design-2.png
       text: |-
         ✨ Cosa troverai nel tuo cesto?  
 
