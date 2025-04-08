@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: 🐟 Pic-Nic Gourmet by La Ruota 🦞
-image: /img/page-3.png
+image: /img/page-4.png
 heading: 🐟 Pic-Nic Gourmet by La Ruota 🦞
 description: "🐟 Pic-Nic Gourmet by La Ruota 🦞  Un’esperienza unica pensata per
   voi,  dal nostro storico ristorante sul mare, a due passi dalla
@@ -22,6 +22,7 @@ pricing:
         - "-Due piatti a scelta tra:"
         - Capponmagro
         - Insalata di Seppie e pompelmo
+        - Tagliata di tonno al pane aromatico
         - Trofie al pesto
         - Trofie alla bottarga di muggine con trombette
         - Dessert
@@ -30,7 +31,6 @@ pricing:
         - "Un panino a scelta tra:"
         - Polpo rosticciato Maionese allo zenzero e trombette
         - Spada Affumicato Insalatina e Tzatziki
-        - ""
         - Tonno crudo Emulsione di agrumi e finocchio
         - Birra o Bibita
       plan: Panino-nic Euro 18 a Persona
