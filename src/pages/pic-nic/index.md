@@ -48,7 +48,7 @@ intro:
           * C﻿esto aperitivo con qualche stuzzichino e una bottiglia di vino
           * C﻿esto panino per un pranzo veloce e informale
         * * C﻿esto personalizzato per il tuo Pic-nic
-      image: /img/set-transparent-glasses-with-white-red-wine_1441-111.jpg
+      image: /img/untitled-design-2.png
   heading: 🐟 Pic-Nic Gourmet by La Ruota 🦞
   description: >-
     Un’esperienza unica pensata per voi,  dal nostro storico ristorante sul
