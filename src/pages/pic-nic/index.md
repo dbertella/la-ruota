@@ -1,8 +1,8 @@
 ---
 templateKey: product-page
-title: Pic nic
+title: 🐟 Pic-Nic Gourmet by La Ruota 🦞
 image: /img/blue-modern-start-your-journey-email-header.png
-heading: Pic nic Gourmet
+heading: 🐟 Pic-Nic Gourmet by La Ruota 🦞
 description: "🐟 Pic-Nic Gourmet by La Ruota 🦞  Un’esperienza unica pensata per
   voi,  dal nostro storico ristorante sul mare, a due passi dalla
   spiaggia!  Scopri la magia di un pranzo all’aperto preparato con passione e
@@ -10,32 +10,45 @@ description: "🐟 Pic-Nic Gourmet by La Ruota 🦞  Un’esperienza unica pensa
   selezionato nasce il nostro esclusivo cesto gourmet , pensato per rendere
   speciale ogni momento. "
 pricing:
-  heading: Pic nic
+  heading: 🐟 Pic-Nic Gourmet by La Ruota 🦞
   plans:
     - items:
         - Olive taggiasche
         - Bruschette di Bottarga di tonno e pomodoro
         - Insalata di panissa e cipollotto
-        - Prosecco
-      plan: Pic-ape_ Euro 35,00
+        - Bottiglia di Prosecco
+      plan: Pic-nic Aperitivo_ Euro 35,00
     - items:
-        - "Due piatti a scelta tra:"
+        - "- Due piatti a scelta tra:"
         - Capponmagro
         - Insalata di Seppie e pompelmo
         - Trofie al pesto
         - Trofie alla bottarga di muggine con trombette
         - Dessert
-      plan: Gourmet Pic-nic_ Euro 35 a persona
+      plan: Gourmet Pic-nic_ Euro 35 a Persona
     - items:
-        - "Un panino a scelta tra:"
-        - con Polpo rosticciato Maionese allo zenzero e trombette
-        - con Spada Affumicato Insalatina e Tzatziki
+        - "-Un panino a scelta tra:"
+        - Polpo rosticciato Maionese allo zenzero e trombette
+        - Spada Affumicato Insalatina e Tzatziki
         - ""
-        - con tonno crudo Emulsione di agrumi e finocchio
+        - Tonno crudo Emulsione di agrumi e finocchio
         - Birra o Bibita
       plan: Panino-nic_ Euro 18 a Persona
 intro:
-  blurbs: []
+  blurbs:
+    - text: >-
+        ✨ Come funziona?
+
+
+        * 📞 Prenota il tuo cesto gourmet telefonando al 018361206 o mandando un Whatsapp entro 24 ore dal ritiro
+
+        * Scegli la formula che fa per te tra:
+
+          * Cesto gourmet con una selezione di pesce fresco, specialità locali e dolci raffinati.  
+          * C﻿esto aperitivo con qualche stuzzichino e una bottiglia di vino
+          * C﻿esto panino per un pranzo veloce e informale
+        * * C﻿esto personalizzato per il tuo Pic-nic
+      image: /img/set-transparent-glasses-with-white-red-wine_1441-111.jpg
   heading: 🐟 Pic-Nic Gourmet by La Ruota 🦞
   description: >-
     Un’esperienza unica pensata per voi,  dal nostro storico ristorante sul
