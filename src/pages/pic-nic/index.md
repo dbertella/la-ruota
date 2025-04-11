@@ -3,7 +3,7 @@ templateKey: product-page
 title: 🐟 Pic-Nic Gourmet by La Ruota 🦞
 image: /img/page-4.png
 heading: 🐟 Pic-Nic Gourmet by La Ruota 🦞
-description: "🐟 Pic-Nic Gourmet by La Ruota 🦞  Un’esperienza unica pensata per
+description: "Il Nostro pic-nic gourmet è un esperienza unica pensata per
   voi,  dal nostro storico ristorante sul mare, a due passi dalla
   spiaggia!  Scopri la magia di un pranzo all’aperto preparato con passione e
   ingredienti di altissima qualità. Dal nostro amore per la cucina e il pesce
@@ -37,7 +37,7 @@ pricing:
 intro:
   blurbs:
     - text: >
-        ✨ Come funziona?
+        ✨ Come funziona?,
 
 
         📞 Prenota il tuo cesto gourmet telefonando al 018361206 o mandando un Whatsapp entro 24 ore dal ritiro
@@ -55,7 +55,7 @@ intro:
 
         S﻿tabiliremo un orario di ritiro presso il Nostro ristorante alla prenotazione,
 
-        T﻿i chiederemo come caparra un documento di identità per la restituzione del cestino in vimini o lo zaino,E﻿ffettui il pagamento e goditi l'esperienza!
+        T﻿i chiederemo come caparra un documento di identità per la restituzione del cestino in vimini o lo zaino, e﻿ffettui il pagamento e goditi l'esperienza!
   heading: 🐟 Pic-Nic Gourmet by La Ruota 🦞
   description: >-
     Un’esperienza unica pensata per voi,  dal nostro storico ristorante sul
@@ -68,13 +68,13 @@ main:
   description: "Sul lungomare, in spiaggia o in un angolo panoramico oppure sulla
     bellissima pista ciclabile : il tuo cesto, il tuo momento!  "
   image1:
-    alt: Tartare di ricciola e porcini
-    image: /img/immagine-whatsapp-2023-10-02-ore-18.43.20_5837df7c.jpg
+    alt: cesto
+    image: /img/cestino_pic_nic_con_manico_2_ante_vimini_accessori_2_persone_fodera_grigia-thumbnail-500x500-70.jpeg
   image2:
-    alt: Linguine alla bottarga di muggine e trombette
-    image: /img/immagine-whatsapp-2023-10-02-ore-18.51.16_f3a4603a.jpg
+    alt: nic
+    image: /img/page-3.png
   image3:
-    alt: I Gamberoni viola
-    image: /img/immagine-whatsapp-2023-10-02-ore-18.47.21_d3b9849a.jpg
-full_image: /img/29401053_439974526423503_4197193190140280832_n.jpg
+    alt: cin
+    image: /img/set-transparent-glasses-with-white-red-wine_1441-111.jpg
+full_image: /img/untitled-design-2.png
 ---
