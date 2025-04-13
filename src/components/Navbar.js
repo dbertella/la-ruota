@@ -66,6 +66,13 @@ const Navbar = class extends React.Component {
               <Link
                 className="navbar-item"
                 style={{ background: 'transparent' }}
+                to="/pic-nic"
+              >
+                Pic nic
+              </Link>
+              <Link
+                className="navbar-item"
+                style={{ background: 'transparent' }}
                 to="/prenotazioni"
               >
                 Prenotazioni
