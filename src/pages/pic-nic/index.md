@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: 🐟 Pic-Nic Gourmet by La Ruota 🦞
-image: /img/prova2.png
+image: /img/prova23.png
 heading: 🐟 Pic-Nic Gourmet by La Ruota 🦞
 description: "Il Nostro pic-nic gourmet è un esperienza unica pensata per
   voi,  dal nostro storico ristorante sul mare, a due passi dalla
