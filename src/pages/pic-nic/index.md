@@ -41,8 +41,8 @@ intro:
 
 
         📞 Prenota il tuo cesto gourmet telefonando al 018361206 o mandando un Whatsapp entro 24 ore dal ritiro
-      image: /img/prova-2.jpg
-    - image: /img/untitled-design-2.png
+      image: /img/pagina-1.jpg
+    - image: /img/prova-2.jpg
       text: |-
         ✨ Cosa troverai nel tuo cesto?  
 
@@ -72,7 +72,7 @@ main:
     image: /img/cestino_pic_nic_con_manico_2_ante_vimini_accessori_2_persone_fodera_grigia-thumbnail-500x500-70.jpeg
   image2:
     alt: nic
-    image: /img/page-3.png
+    image: /img/page-2.jpg
   image3:
     alt: cin
     image: /img/pngegg-2-.png
