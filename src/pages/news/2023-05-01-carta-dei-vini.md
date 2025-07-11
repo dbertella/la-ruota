@@ -7,7 +7,7 @@ image: /img/carta-dei-vini1.png
 ---
 # C﻿licca sui Link per scaricare la nostra selezione di vini
 
-* # [﻿C﻿arta dei Vini 2025](www.laruotaimperia.com/img/carta-vini-2025.pdf)
+* # [﻿C﻿arta dei Vini 2025](https://laruotaimperia.com/img/carta-vini-2025.pdf)
 
 [](www.laruotaimperia.com/img/carta-vini-2025.pdf)[](static/img/carta-vini-2025.pdf)[](https://laruotaimperia.com/static/img/carta-2024-la-ruota.pdf)NB:
 
